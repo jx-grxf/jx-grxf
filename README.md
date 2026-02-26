@@ -10,7 +10,7 @@
 
 ## My projects 
 
-- 🔧 **[NPM Manager] (https://github.com/jx-grxf/NPM-Manager)** -> easily manage your NPM instances on mac
+- in progress....
 
 ## About me 
 
