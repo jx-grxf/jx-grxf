@@ -17,6 +17,10 @@
 - 🎓 1st grade **HTL-Student**
 - 👨‍💻 Learning **C** and **Swift**
 
+## Roadmap
+
+- ⚙️ ai development
+
 ## Stats 
 
 ![GitHub Contribution Graph](https://ghchart.rshah.org/jx-grxf)
