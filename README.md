@@ -15,7 +15,7 @@
 ## About me 
 
 - 🎓 1st grade **HTL-Student**
-- 👨‍💻 Learning **C** and **Swift**
+- 👨‍💻 Learning **C**, **Swift** and **TypeScript / JavaScript**
 
 ## Roadmap
 
@@ -24,6 +24,10 @@
 ## Stats 
 
 ![GitHub Contribution Graph](https://ghchart.rshah.org/jx-grxf)
+
+## Fun facts
+
+- burning millions of tokens a day 🦞
 
 ## Socials
 
