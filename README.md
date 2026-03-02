@@ -14,9 +14,9 @@
 
 ## Current projects
 
-| | |
-|:---:|---|
-| 🃏 [Netjack](https://github.com/jx-grxf/Netjack) | Real-time LAN Blackjack game built with TypeScript, React, and Socket.IO |
+| | | |
+|:---:|:---:|---|
+| 🃏 [Netjack](https://github.com/jx-grxf/Netjack) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) | Real-time LAN Blackjack game built with TypeScript, React, and Socket.IO |
 
 ---
 
