@@ -12,6 +12,14 @@
 
 ---
 
+## Current projects
+
+| | |
+|:---:|---|
+| 🃏 [Netjack](https://github.com/jx-grxf/Netjack) | Real-time LAN Blackjack game built with TypeScript, React, and Socket.IO |
+
+---
+
 ## Tech Stack
 
 **Platform:** ![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/-Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
