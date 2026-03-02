@@ -1,36 +1,52 @@
 ## Hi there, I'm Johannes 👋
 
-📍**Austria** | 🏫 **Student**
+📍 **Austria** | 🏫 **HTL-Student** | 👨‍💻 Passionate about **Swift, C & AI**
 
-## Platform ![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
+---
 
-## Languages ![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=swift&logoColor=white) ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white)
+## About Me
 
-## Skills ![CLI](https://img.shields.io/badge/-CLI-000000?style=flat-square&logo=gnu-bash&logoColor=white) ![GIT](https://camo.githubusercontent.com/f26d910d1ad5d70033802212ca3ed891be16b03eba58823d91cfeef95058da27/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6769742d2532334630353033322e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d676974266c6f676f436f6c6f723d7768697465)
+- 🎓 1st grade **HTL-Student** in Austria
+- 💻 Learning **C**, **Swift** and **TypeScript / JavaScript**
+- 🤖 Interested in **AI development & LLMs**
 
-## My projects 
+---
 
-- in progress....
+## Tech Stack
 
-## About me 
+**Platform:** ![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
 
-- 🎓 1st grade **HTL-Student**
-- 👨‍💻 Learning **C**, **Swift** and **TypeScript / JavaScript**
+**Languages:** ![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=swift&logoColor=white) ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+**Tools:** ![CLI](https://img.shields.io/badge/-CLI-000000?style=flat-square&logo=gnu-bash&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+---
+
+## GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jx-grxf&show_icons=true&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jx-grxf&layout=compact&theme=dark)
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=jx-grxf&theme=dark)](https://git.io/streak-stats)
+
+---
 
 ## Roadmap
 
-- ⚙️ ai development
+- ⚙️ AI Development & Agents
+- 📱 mac apps w. swift
+- 🌐 Type/Java - script
+- 🔐 cybersecurity
 
-## Stats 
-
-![GitHub Contribution Graph](https://ghchart.rshah.org/jx-grxf)
+---
 
 ## Fun facts
 
-- burning millions of tokens a day 🦞
+- 🔥 Burning millions of tokens a day 🦞
+
+---
 
 ## Socials
 
-- 𝕏 [![Twitter](https://img.shields.io/badge/-@jx_grxf-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/jx_grxf)
-- LinkedIn [![LinkedIn](https://img.shields.io/badge/Johannes_Grof-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johannes-grof-246892379/)
-
+[![Twitter](https://img.shields.io/badge/-@jx_grxf-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/jx_grxf)
+[![LinkedIn](https://img.shields.io/badge/-Johannes_Grof-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johannes-grof-246892379/)
