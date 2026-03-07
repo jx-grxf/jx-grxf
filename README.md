@@ -17,6 +17,7 @@
 | | | |
 |:---:|:---:|---|
 | 🃏 [Netjack](https://github.com/jx-grxf/Netjack) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) | Real-time LAN Blackjack game built with TypeScript, React, and Socket.IO |
+| 🦞 [Openclaw](https://github.com/jx-grxf/Openclaw) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) | forked + enhanced |
 
 ---
 
