@@ -18,6 +18,7 @@
 |:---:|:---:|---|
 | 🃏 [Netjack](https://github.com/jx-grxf/Netjack) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) | Real-time LAN Blackjack game built with TypeScript, React, and Socket.IO |
 | 🦞 [Openclaw](https://github.com/jx-grxf/Openclaw) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) | forked + enhanced |
+| 🎙️ [OpenClaw-Discord-Voice](https://github.com/jx-grxf/OpenClaw-Discord-Voice) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Discord](https://img.shields.io/badge/Discord.js-5865F2?logo=discord&logoColor=white) | Experimental self-hosted Discord voice bridge for OpenClaw |
 
 ---
 
