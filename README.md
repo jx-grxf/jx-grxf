@@ -17,9 +17,17 @@
 | | | |
 |:---:|:---:|---|
 | 🃏 [Netjack](https://github.com/jx-grxf/Netjack) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) | Real-time LAN Blackjack game built with TypeScript, React, and Socket.IO |
-| 🦞 [Openclaw](https://github.com/jx-grxf/Openclaw) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) | forked + enhanced |
 | 🎙️ [OpenClaw-Discord-Voice](https://github.com/jx-grxf/OpenClaw-Discord-Voice) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Discord](https://img.shields.io/badge/Discord.js-5865F2?logo=discord&logoColor=white) | Experimental self-hosted Discord voice bridge for OpenClaw |
-| 🪛 [NPM-Manager]
+| 🌐 [jx-grxf-website](https://github.com/jx-grxf/jx-grxf-website) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | My website |
+| 📝 [Word-counter](https://github.com/jx-grxf/Word-counter) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | Word counting application with CSS animations |
+
+---
+
+## Forks
+
+| | | |
+|:---:|:---:|---|
+| 🦞 [openclaw](https://github.com/jx-grxf/openclaw) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 |
 
 ---
 
