@@ -22,7 +22,7 @@
 | 📝 [Word-counter](https://github.com/jx-grxf/Word-counter) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | This HTML document features a word counting application with CSS animations for visual appeal. |
 | 👤 [jx-grxf](https://github.com/jx-grxf/jx-grxf) | ![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white) | My GitHub profile repository. |
 | 📄 [jx-grxf.github.io](https://github.com/jx-grxf/jx-grxf.github.io) | ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=white) | GitHub Pages repository for my public site. |
-| 📦 [NPM-Manager](https://github.com/jx-grxf/NPM-Manager) | ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white) | CLI toolset for managing npm packages and workflows. |
+| 📦 [NPM-Manager](https://github.com/jx-grxf/NPM-Manager) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | CLI toolset for managing npm packages and workflows. |
 
 ---
 
