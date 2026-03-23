@@ -16,10 +16,13 @@
 
 | | | |
 |:---:|:---:|---|
-| 🃏 [Netjack](https://github.com/jx-grxf/Netjack) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) | Real-time LAN Blackjack game built with TypeScript, React, and Socket.IO |
-| 🎙️ [OpenClaw-Discord-Voice](https://github.com/jx-grxf/OpenClaw-Discord-Voice) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Discord](https://img.shields.io/badge/Discord.js-5865F2?logo=discord&logoColor=white) | Experimental self-hosted Discord voice bridge for OpenClaw |
-| 🌐 [jx-grxf-website](https://github.com/jx-grxf/jx-grxf-website) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | My website |
-| 📝 [Word-counter](https://github.com/jx-grxf/Word-counter) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | Word counting application with CSS animations |
+| 🃏 [Netjack](https://github.com/jx-grxf/Netjack) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) | Real-time LAN Blackjack game built with TypeScript, React, and Socket.IO. |
+| 🎙️ [OpenClaw-Discord-Voice](https://github.com/jx-grxf/OpenClaw-Discord-Voice) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Discord](https://img.shields.io/badge/Discord.js-5865F2?logo=discord&logoColor=white) | Self-hosted Discord voice bridge project for OpenClaw experiments. |
+| 🌐 [jx-grxf-website](https://github.com/jx-grxf/jx-grxf-website) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | My website. |
+| 📝 [Word-counter](https://github.com/jx-grxf/Word-counter) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | This HTML document features a word counting application with CSS animations for visual appeal. |
+| 👤 [jx-grxf](https://github.com/jx-grxf/jx-grxf) | ![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white) | My GitHub profile repository. |
+| 📄 [jx-grxf.github.io](https://github.com/jx-grxf/jx-grxf.github.io) | ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=white) | GitHub Pages repository for my public site. |
+| 📦 [NPM-Manager](https://github.com/jx-grxf/NPM-Manager) | ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white) | CLI toolset for managing npm packages and workflows. |
 
 ---
 
@@ -28,6 +31,8 @@
 | | | |
 |:---:|:---:|---|
 | 🦞 [openclaw](https://github.com/jx-grxf/openclaw) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 |
+| 🎧 [AirPodsDesktop](https://github.com/jx-grxf/AirPodsDesktop) | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white) | ☄️ AirPods desktop user experience enhancement program for Windows and Linux (WIP). |
+| 📚 [EBookToPDF](https://github.com/jx-grxf/EBookToPDF) | ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) | Utility repository for converting ebooks into PDF format. |
 
 ---
 
