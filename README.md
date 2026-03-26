@@ -18,6 +18,7 @@
 |:---:|:---:|---|
 | 🃏 [Netjack](https://github.com/jx-grxf/Netjack) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) | Real-time LAN Blackjack game built with TypeScript, React, and Socket.IO. |
 | 🎙️ [OpenClaw-Discord-Voice](https://github.com/jx-grxf/OpenClaw-Discord-Voice) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Discord](https://img.shields.io/badge/Discord.js-5865F2?logo=discord&logoColor=white) | Self-hosted Discord voice bridge project for OpenClaw experiments. |
+| 🦞 [ClawDash](https://github.com/jx-grxf/ClawDash) | ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) | Local operator dashboard for OpenClaw with sessions, stats, CLI tools, and a live Pixel Office view. |
 | 🌐 [jx-grxf-website](https://github.com/jx-grxf/jx-grxf-website) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | My website. |
 | 📝 [Word-counter](https://github.com/jx-grxf/Word-counter) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | This HTML document features a word counting application with CSS animations for visual appeal. |
 | 👤 [jx-grxf](https://github.com/jx-grxf/jx-grxf) | ![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white) | My GitHub profile repository. |
