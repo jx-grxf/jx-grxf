@@ -1,6 +1,6 @@
 ## Hi there, I'm Johannes 👋
 
-📍 **Austria** | 🏫 **HTL-Student** | 👨‍💻 **Swift, C, JS/TS & AI**
+📍 **Austria** | 🏫 **HTL-Student** | 👨💻 **Swift, C, JS/TS & AI**
 
 ---
 
@@ -18,12 +18,20 @@
 |:---:|:---:|---|
 | 🃏 [Netjack](https://github.com/jx-grxf/Netjack) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) | Real-time LAN Blackjack game built with TypeScript, React, and Socket.IO. |
 | 🎙️ [OpenClaw-Discord-Voice](https://github.com/jx-grxf/OpenClaw-Discord-Voice) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Discord](https://img.shields.io/badge/Discord.js-5865F2?logo=discord&logoColor=white) | Self-hosted Discord voice bridge project for OpenClaw experiments. |
-| 🦞 [ClawDash](https://github.com/jx-grxf/ClawDash) | ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) | Local operator dashboard for OpenClaw with sessions, stats, CLI tools, and a live Pixel Office view. |
-| 🌐 [jx-grxf-website](https://github.com/jx-grxf/jx-grxf-website) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | My website. |
+| 🦞 [ClawDash](https://github.com/jx-grxf/ClawDash) | ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) | Local OpenClaw dashboard with operator view, stats, sessions, and Pixel Office. |
+| 🌐 [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | Personal domain website repository. |
 | 📝 [Word-counter](https://github.com/jx-grxf/Word-counter) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | This HTML document features a word counting application with CSS animations for visual appeal. |
+| 📡 [adruino-distance-alarm](https://github.com/jx-grxf/adruino-distance-alarm) | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white) | A simple distance measure project for Arduino exposed to a local web dashboard to monitor data. |
 | 👤 [jx-grxf](https://github.com/jx-grxf/jx-grxf) | ![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white) | My GitHub profile repository. |
 | 📄 [jx-grxf.github.io](https://github.com/jx-grxf/jx-grxf.github.io) | ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=white) | GitHub Pages repository for my public site. |
-| 📦 [NPM-Manager](https://github.com/jx-grxf/NPM-Manager) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | CLI toolset for managing npm packages and workflows. |
+
+---
+
+## HTBLA Kaindorf
+
+| | | |
+|:---:|:---:|---|
+| 🏫 [25-26-C](https://github.com/jx-grxf/25-26-C) | ![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black) | Collection of files, exercises, notes, and code from my first year at HTL where I am learning C. |
 
 ---
 
