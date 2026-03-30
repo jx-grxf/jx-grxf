@@ -16,7 +16,7 @@
 
 | | | |
 |:---:|:---:|---|
-| 📻 [ta-caruso-streaming-client](https://github.com/jx-grxf/ta-caruso-streaming-client) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Electron](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white) | Local streaming bridge that brings internet radio and modern sources back to older T+A Caruso systems through a browsable UPnP workflow. |
+| 📻 [Caruso-Reborn](https://github.com/jx-grxf/Caruso-Reborn) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Electron](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white) | Local streaming bridge that brings internet radio and modern sources back to older T+A Caruso systems through a browsable UPnP workflow. |
 
 ---
 
