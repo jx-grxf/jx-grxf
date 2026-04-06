@@ -37,14 +37,6 @@
 
 ---
 
-## HTBLA Kaindorf
-
-| | | |
-|:---:|:---:|---|
-| 🏫 [25-26-C](https://github.com/jx-grxf/25-26-C) | ![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black) | Collection of files, exercises, notes, and code from my first year at HTL where I am learning C. |
-
----
-
 ## Forks
 
 | | | |
