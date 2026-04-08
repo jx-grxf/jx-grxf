@@ -35,6 +35,12 @@
 | 👤 [jx-grxf](https://github.com/jx-grxf/jx-grxf) | ![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white) | My GitHub profile repository. |
 | 📄 [jx-grxf.github.io](https://github.com/jx-grxf/jx-grxf.github.io) | ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=white) | GitHub Pages repository for my public site. |
 
+### Coming soon
+
+| | | |
+|:---:|:---:|---|
+| ⌨️ [TypeBot](https://github.com/jx-grxf/TypeBot) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-45BA63?logo=playwright&logoColor=white) | stay tuned...👀 |
+
 ---
 
 ## Forks
