@@ -14,9 +14,9 @@
 
 ## Highlighted Projects
 
-| | | |
-|:---:|:---:|---|
-| 📻 [Caruso-Reborn](https://github.com/jx-grxf/Caruso-Reborn) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Electron](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white) | Local streaming bridge that brings internet radio and modern sources back to older T+A Caruso systems through a browsable UPnP workflow. |
+| | | | |
+|:---:|:---:|:---:|---|
+| 📻 [Caruso-Reborn](https://github.com/jx-grxf/Caruso-Reborn) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Electron](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | Local streaming bridge that brings internet radio and modern sources back to older T+A Caruso systems through a browsable UPnP workflow. |
 
 ---
 
@@ -29,11 +29,11 @@
 | 🦞 [ClawDash](https://github.com/jx-grxf/ClawDash) | ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | Local OpenClaw dashboard with operator view, stats, sessions, and Pixel Office. |
 | 🎵 [Mactune](https://github.com/jx-grxf/Mactune) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | macOS menu bar audio spectrum visualizer prototype built with Swift. |
 | 📦 [NPM-Manager](https://github.com/jx-grxf/NPM-Manager) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Native macOS menu bar app for monitoring and controlling running npm scripts. |
-| 🌐 [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | Personal domain website repository. |
+| 🌐 [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | ![Web](https://img.shields.io/badge/Web-4285F4?logo=googlechrome&logoColor=white) | Personal domain website repository. |
 | 📝 [Word-counter](https://github.com/jx-grxf/Word-counter) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | This HTML document features a word counting application with CSS animations for visual appeal. |
 | 📡 [adruino-distance-alarm](https://github.com/jx-grxf/adruino-distance-alarm) | ![C%2B%2B](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | A simple distance measure project for Arduino exposed to a local web dashboard to monitor data. |
 | 👤 [jx-grxf](https://github.com/jx-grxf/jx-grxf) | ![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | My GitHub profile repository. |
-| 📄 [jx-grxf.github.io](https://github.com/jx-grxf/jx-grxf.github.io) | ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | GitHub Pages repository for my public site. |
+| 📄 [jx-grxf.github.io](https://github.com/jx-grxf/jx-grxf.github.io) | ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=white) | ![Web](https://img.shields.io/badge/Web-4285F4?logo=googlechrome&logoColor=white) | GitHub Pages repository for my public site. |
 
 ### Coming soon
 
