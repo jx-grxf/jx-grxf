@@ -9,6 +9,7 @@
 - 🎓 1st grade **HTL-Student** in Austria
 - 💻 Learning **C**, **Swift** and **TypeScript / JavaScript**
 - 🤖 Interested in **AI development & LLMs**
+- 🔧 Experienced in using Codex, Claude Code, and other agentic coding AIs.
 
 ---
 
