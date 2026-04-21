@@ -1,104 +1,19 @@
-<div align="center">
+## Hi there, I'm Johannes 👋
 
-# Johannes Grof
+📍 **Austria** | 🏫 **HTL-Student** | 👨💻 **Swift, C, JS/TS & AI**
 
-**HTL student in Austria building Swift, C, TypeScript, and AI tooling.**
+---
 
-[![Location](https://img.shields.io/badge/Austria-8B5CF6?logo=mapbox&logoColor=white)](https://github.com/jx-grxf)
-[![Primary Stack](https://img.shields.io/badge/Swift%20%7C%20C%20%7C%20TypeScript-111827)](https://github.com/jx-grxf)
-[![Platform](https://img.shields.io/badge/macOS%20%7C%20Windows-000000?logo=apple&logoColor=white)](https://github.com/jx-grxf)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+## About Me
 
-</div>
+- 🎓 1st grade **HTL-Student** in Austria
+- 💻 Learning **C**, **Swift** and **TypeScript / JavaScript**
+- 🤖 Interested in **AI development & LLMs**
+- 🔧 Experienced in using Codex, Claude Code, and other agentic coding AIs.
 
-## Showcase
+---
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jx-grxf&show_icons=true&theme=dark)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jx-grxf&layout=compact&theme=dark)
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=jx-grxf&theme=dark)](https://git.io/streak-stats)
-
-## Contents
-
-- [Highlights](#highlights)
-- [Why This Exists](#why-this-exists)
-- [Current Workflow](#current-workflow)
-- [Tech Stack](#tech-stack)
-- [Requirements](#requirements)
-- [Quick Start](#quick-start)
-- [Usage](#usage)
-- [Development](#development)
-- [Roadmap](#roadmap)
-- [License](#license)
-
-## Highlights
-
-| Area | Description |
-|---|---|
-| Featured projects | A single place to surface the most relevant repositories |
-| Current focus | Swift, C, TypeScript, and AI-assisted development |
-| Public identity | GitHub profile, socials, and linked project portfolio |
-| Maintenance signal | Easy-to-scan repository hub for future visitors |
-
-## Why This Exists
-
-This repository acts as my GitHub profile landing page. It gives visitors a quick overview of what I build, what I am learning, and which projects matter most right now.
-
-## Current Workflow
-
-1. Add or update project entries in the featured tables.
-2. Keep the current focus and roadmap aligned with what I am actually working on.
-3. Refresh badges, links, and socials when a profile target changes.
-4. Review the README locally before publishing changes.
-
-## Tech Stack
-
-| Layer | Technologies |
-|---|---|
-| Content | Markdown |
-| Presentation | GitHub-flavored Markdown tables and badges |
-| Hosting | GitHub profile repository |
-| License | MIT |
-
-## Requirements
-
-- A GitHub account
-- A browser that renders GitHub Markdown
-- Current links for the projects I want to highlight
-
-## Quick Start
-
-Clone the repository and review the rendered profile locally through GitHub or a Markdown previewer:
-
-```bash
-git clone git@github.com:jx-grxf/jx-grxf.git
-cd jx-grxf
-```
-
-## Usage
-
-- Visit the profile to find the latest project links.
-- Use the featured projects section as the main summary.
-- Follow the social badges for contact and network entry points.
-
-## Development
-
-- Keep the README compact and truthful.
-- Prefer current projects over stale ones.
-- Update the roadmap when the work changes direction.
-- Leave the license intact and consistent with the repository.
-
-## Roadmap
-
-- Improve the project table organization as the portfolio grows
-- Add more targeted summaries for major repositories
-- Keep the public profile aligned with current technical interests
-
-## License
-
-This repository is licensed under MIT. See [LICENSE](LICENSE).
-
-## Featured Projects
+## Highlighted Projects
 
 | | | | |
 |:---:|:---:|:---:|---|

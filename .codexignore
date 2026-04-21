@@ -1,9 +1,0 @@
-build/
-dist/
-node_modules/
-coverage/
-.netlify/
-.vercel/
-.DS_Store
-*.log
-*.tmp
