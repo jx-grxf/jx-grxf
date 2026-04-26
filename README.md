@@ -1,6 +1,6 @@
 ## Hi there, I'm Johannes 👋
 
-📍 **Austria** | 🏫 **HTL-Student** | 👨💻 **Swift, C, JS/TS & AI**
+📍 **Austria** | 🏫 **HTL-Student** | 💻 **Swift, C, JS/TS & AI**
 
 ---
 
