@@ -24,6 +24,12 @@
 | 🛠️ [Digi2PDF](https://github.com/jx-grxf/Digi2PDF) | ![Python](https://img.shields.io/badge/python-3.12%2B-blue) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?logo=Selenium&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-grey?logo=linux) | An easy way to convert Digi4.... books to PDF with OCR. 
 
 
+### Coming soon
+
+| | | | |
+|:---:|:---:|:---:|---|
+| 📦 [NPM-Manager](https://github.com/jx-grxf/NPM-Manager) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | stay tuned...👀 |
+| ⌨️ [TypeBot](https://github.com/jx-grxf/TypeBot) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-45BA63?logo=playwright&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | stay tuned...👀 |
 
 ---
 
@@ -37,13 +43,6 @@
 | 👤 [jx-grxf](https://github.com/jx-grxf/jx-grxf) | ![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white) | ![Web](https://img.shields.io/badge/Web-4285F4?logo=googlechrome&logoColor=white) | My GitHub profile repository. |
 | 🌐 [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | ![Web](https://img.shields.io/badge/Web-4285F4?logo=googlechrome&logoColor=white) | Personal domain website repository. |
 
-
-### Coming soon
-
-| | | | |
-|:---:|:---:|:---:|---|
-| 📦 [NPM-Manager](https://github.com/jx-grxf/NPM-Manager) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | stay tuned...👀 |
-| ⌨️ [TypeBot](https://github.com/jx-grxf/TypeBot) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-45BA63?logo=playwright&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | stay tuned...👀 |
 
 ---
 
