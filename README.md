@@ -26,17 +26,6 @@
 
 ---
 
-## Current projects
-
-| | | | |
-|:---:|:---:|:---:|---|
-| 🃏 [Netjack](https://github.com/jx-grxf/Netjack) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | Real-time LAN Blackjack game built with TypeScript, React, and Socket.IO. |
-| 🎙️ [OpenClaw-Discord-Voice](https://github.com/jx-grxf/OpenClaw-Discord-Voice) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Discord](https://img.shields.io/badge/Discord.js-5865F2?logo=discord&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Self-hosted Discord voice bridge project for OpenClaw experiments. |
-| 🦞 [ClawDash](https://github.com/jx-grxf/ClawDash) | ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | Local OpenClaw dashboard with operator view, stats, sessions, and Pixel Office. |
-| 📡 [adruino-distance-alarm](https://github.com/jx-grxf/adruino-distance-alarm) | ![C%2B%2B](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | A simple distance measure project for Arduino exposed to a local web dashboard to monitor data. |
-| 👤 [jx-grxf](https://github.com/jx-grxf/jx-grxf) | ![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white) | ![Web](https://img.shields.io/badge/Web-4285F4?logo=googlechrome&logoColor=white) | My GitHub profile repository. |
-| 📝 [Word-counter](https://github.com/jx-grxf/Word-counter) | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) | ![Web](https://img.shields.io/badge/Web-4285F4?logo=googlechrome&logoColor=white) | This HTML document features a word counting application with CSS animations for visual appeal. |
-
 ### Coming soon
 
 | | | | |
