@@ -17,13 +17,25 @@
 
 | | | | |
 |:---:|:---:|:---:|---|
-| 🧰 [MacDev](https://github.com/jx-grxf/MacDev) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Native macOS menu bar control center for monitoring, diagnosing, and managing local developer runtimes. |
-| 🔊 [SlamX](https://github.com/jx-grxf/SlamX) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Want to make your MacBook scream? |
-| 📄 [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![AppleScript](https://img.shields.io/badge/AppleScript-000000?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNCAxNCI+PHJlY3QgeD0iMiIgeT0iMC41IiB3aWR0aD0iOS41IiBoZWlnaHQ9IjEzIiByeD0iMiIgZmlsbD0id2hpdGUiLz48cmVjdCB4PSIxIiB5PSIxLjUiIHdpZHRoPSIzIiBoZWlnaHQ9IjExIiByeD0iMS41IiBmaWxsPSIjZDBkMGQwIi8+PHJlY3QgeD0iNC41IiB5PSIzLjUiIHdpZHRoPSI2IiBoZWlnaHQ9IjEiIHJ4PSIwLjUiIGZpbGw9IiM1NTUiLz48cmVjdCB4PSI0LjUiIHk9IjYiIHdpZHRoPSI0LjUiIGhlaWdodD0iMSIgcng9IjAuNSIgZmlsbD0iIzU1NSIvPjxyZWN0IHg9IjQuNSIgeT0iOC41IiB3aWR0aD0iMyIgaGVpZ2h0PSIxIiByeD0iMC41IiBmaWxsPSIjNTU1Ii8+PC9zdmc+&logoColor=white)| ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Batch convert docx documents to PDFs in lightspeed. |
 | 📻 [Caruso-Reborn](https://github.com/jx-grxf/Caruso-Reborn) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Electron](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white)| ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | Local streaming bridge that brings internet radio and modern sources back to older T+A Caruso systems through a browsable UPnP workflow. |
 | 🛠️ [PatchPilot](https://github.com/jx-grxf/PatchPilot) - BETA| ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Ollama](https://img.shields.io/badge/LLM-Ollama-000000) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | PatchPilot is a local-first terminal coding agent that helps developers safely inspect, plan, and apply code changes with explicit permission controls for file writes and shell commands using Ollama, Gemini or Codex, with high token efficiency thanks to token-caching.
 | 🛠️ [Digi2PDF](https://github.com/jx-grxf/Digi2PDF) | ![Python](https://img.shields.io/badge/python-3.12%2B-blue) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?logo=Selenium&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-grey?logo=linux) | An easy way to convert Digi4.... books to PDF with OCR. 
 | 🌐 [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me) | ![Astro](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff) | ![Web](https://img.shields.io/badge/Web-4285F4?logo=googlechrome&logoColor=white) | Personal domain website repository. |
+
+--- 
+
+## Mac-Apps
+
+| Project | Tech | Platform | Description |
+|:---:|:---:|:---:|---|
+| 🧰 [PortPirate](https://github.com/jx-grxf/MacDev) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Native macOS menu bar control center for monitoring, diagnosing, agent-ports, and managing local developer runtimes. |
+| 📄 [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![AppleScript](...) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Batch convert docx documents to PDFs in lightspeed. |
+
+### Unmaintained 
+
+| Project | Tech | Platform | Description |
+|:---:|:---:|:---:|---|
+| 🔊 [SlamX](https://github.com/jx-grxf/SlamX) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Want to make your MacBook scream? |
 
 ---
 
@@ -31,7 +43,6 @@
 
 | | | | |
 |:---:|:---:|:---:|---|
-| 📦 [NPM-Manager](https://github.com/jx-grxf/NPM-Manager) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | stay tuned...👀 |
 | ⌨️ [TypeBot](https://github.com/jx-grxf/TypeBot) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-45BA63?logo=playwright&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | stay tuned...👀 |
 
 ---
@@ -40,10 +51,8 @@
 
 | | | | |
 |:---:|:---:|:---:|---|
-| 🃏 [Netjack](https://github.com/jx-grxf/Netjack) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | Real-time LAN Blackjack game built with TypeScript, React, and Socket.IO. |
 | 🎙️ [OpenClaw-Discord-Voice](https://github.com/jx-grxf/OpenClaw-Discord-Voice) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Discord](https://img.shields.io/badge/Discord.js-5865F2?logo=discord&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Self-hosted Discord voice bridge project for OpenClaw experiments. |
 | 📡 [arduino-distance-alarm](https://github.com/jx-grxf/adruino-distance-alarm) | ![C%2B%2B](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | A simple distance measure project for Arduino exposed to a local web dashboard to monitor data. |
-| 👤 [jx-grxf](https://github.com/jx-grxf/jx-grxf) | ![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white) | ![Web](https://img.shields.io/badge/Web-4285F4?logo=googlechrome&logoColor=white) | My GitHub profile repository. |
 
 
 ---
