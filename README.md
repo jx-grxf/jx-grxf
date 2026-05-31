@@ -104,3 +104,4 @@
 
 [![Twitter](https://img.shields.io/badge/-@jx_grxf-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/jx_grxf)
 [![LinkedIn](https://img.shields.io/badge/-Johannes_Grof-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johannes-grof-246892379/)
+[![Email](https://img.shields.io/badge/-contact@johannesgrof.me-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
