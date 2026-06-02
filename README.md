@@ -18,8 +18,8 @@
 | | | | |
 |:---:|:---:|:---:|---|
 | 📻 [Caruso-Reborn](https://github.com/jx-grxf/Caruso-Reborn) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Electron](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white)| ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | Local streaming bridge that brings internet radio and modern sources back to older T+A Caruso systems through a browsable UPnP workflow. |
-| 🛠️ [PatchPilot](https://github.com/jx-grxf/PatchPilot) - BETA| ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Ollama](https://img.shields.io/badge/LLM-Ollama-000000) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | PatchPilot is a local-first terminal coding agent that helps developers safely inspect, plan, and apply code changes with explicit permission controls for file writes and shell commands using Ollama, Gemini or Codex, with high token efficiency thanks to token-caching.
-| 🛠️ [Digi2PDF - down ❌](https://github.com/jx-grxf/Digi2PDF) | ![Python](https://img.shields.io/badge/python-3.12%2B-blue) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?logo=Selenium&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-grey?logo=linux) | Taken down due to legal matters. ⛔️
+| 🛠️ [PatchPilot](https://github.com/jx-grxf/PatchPilot) - BETA | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Ollama](https://img.shields.io/badge/LLM-Ollama-000000) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | PatchPilot is a local-first terminal coding agent that helps developers safely inspect, plan, and apply code changes with explicit permission controls for file writes and shell commands using Ollama, Gemini or Codex, with high token efficiency thanks to token-caching. |
+| 🛠️ [Digi2PDF - down ❌](https://github.com/jx-grxf/Digi2PDF) | ![Python](https://img.shields.io/badge/python-3.12%2B-blue) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?logo=Selenium&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-grey?logo=linux) | Taken down due to legal matters. ⛔️ |
 | 🌐 [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me) | ![Astro](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff) | ![Web](https://img.shields.io/badge/Web-4285F4?logo=googlechrome&logoColor=white) | Personal domain website repository. |
 
 --- 
@@ -28,7 +28,7 @@
 
 | Project | Tech | Platform | Description |
 |:---:|:---:|:---:|---|
-
+| ✏️ [BriskEdit](https://github.com/jx-grxf/BriskEdit) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Native macOS developer text editor built with SwiftUI, AppKit, TextKit 2, and Swift 6. |
 | 📄 [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![AppleScript](...) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Batch convert docx documents to PDFs in lightspeed. |
 
 ### Unmaintained 
@@ -43,8 +43,8 @@
 
 | | | | |
 |:---:|:---:|:---:|---|
-| ⌨️ [TypeBot](https://github.com/jx-grxf/TypeBot) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-45BA63?logo=playwright&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | stay tuned...👀 |
-| 🧰 [PortPirate](https://github.com/jx-grxf/MacDev) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Native macOS menu bar control center for monitoring, diagnosing, agent-ports, and managing local developer runtimes. |
+| ⌨️ TypeBot | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-45BA63?logo=playwright&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | stay tuned...👀 |
+| 🧰 [PortPirate](https://github.com/jx-grxf/PortPirate) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Native macOS menu bar control center for monitoring, diagnosing, agent-ports, and managing local developer runtimes. |
 
 ---
 
@@ -52,8 +52,9 @@
 
 | | | | |
 |:---:|:---:|:---:|---|
+| 🎧 [Hermes-Discord-Voice](https://github.com/jx-grxf/Hermes-Discord-Voice) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Discord](https://img.shields.io/badge/Discord.js-5865F2?logo=discord&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Discord voice bridge for Hermes Agent. |
 | 🎙️ [OpenClaw-Discord-Voice](https://github.com/jx-grxf/OpenClaw-Discord-Voice) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Discord](https://img.shields.io/badge/Discord.js-5865F2?logo=discord&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Self-hosted Discord voice bridge project for OpenClaw experiments. |
-| 📡 [arduino-distance-alarm](https://github.com/jx-grxf/adruino-distance-alarm) | ![C%2B%2B](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | A simple distance measure project for Arduino exposed to a local web dashboard to monitor data. |
+| 📡 [arduino-distance-alarm](https://github.com/jx-grxf/arduino-distance-alarm) | ![C%2B%2B](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | A simple distance measure project for Arduino exposed to a local web dashboard to monitor data. |
 
 
 ---
