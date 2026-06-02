@@ -28,7 +28,7 @@
 
 | Project | Tech | Platform | Description |
 |:---:|:---:|:---:|---|
-| 🧰 [PortPirate](https://github.com/jx-grxf/MacDev) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Native macOS menu bar control center for monitoring, diagnosing, agent-ports, and managing local developer runtimes. |
+
 | 📄 [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![AppleScript](...) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Batch convert docx documents to PDFs in lightspeed. |
 
 ### Unmaintained 
@@ -44,6 +44,7 @@
 | | | | |
 |:---:|:---:|:---:|---|
 | ⌨️ [TypeBot](https://github.com/jx-grxf/TypeBot) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-45BA63?logo=playwright&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | stay tuned...👀 |
+| 🧰 [PortPirate](https://github.com/jx-grxf/MacDev) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Native macOS menu bar control center for monitoring, diagnosing, agent-ports, and managing local developer runtimes. |
 
 ---
 
