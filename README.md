@@ -1,13 +1,13 @@
 ## Hi there, I'm Johannes 👋
 
-📍 **Austria** | 🏫 **HTL-Student** | 💻 **Swift, C, JS/TS & AI**
+📍 **Austria** | 🏫 **HTL-Student** | 💻 **Swift, C, , Java, JS/TS & AI**
 
 ---
 
 ## About Me
 
-- 🎓 1st grade **HTL-Student** in Austria
-- 💻 Learning **C**, **Swift** and **TypeScript / JavaScript**
+- 🎓 2nd grade **HTL-Student** in Austria 
+- 💻 Learning **C**, **Swift** , **Java** and **TypeScript / JavaScript**
 - 🤖 Interested in **AI development & LLMs**
 - 🔧 Experienced in using Codex, Claude Code, and other agentic coding AIs.
 
@@ -102,6 +102,8 @@
 ## Fun facts
 
 - 🔥 Burning millions of tokens a day 🦞
+- MacBook Pro M2 
+- coding is peace 
 
 ---
 
