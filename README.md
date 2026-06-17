@@ -13,6 +13,15 @@
 
 ---
 
+## Mac-Apps
+
+| Project | Tech | Platform | Description |
+|:---:|:---:|:---:|---|
+| ✏️ [BriskEdit](https://github.com/jx-grxf/BriskEdit) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Native macOS developer text editor built with SwiftUI, AppKit, TextKit 2, and Swift 6. |
+| 📄 [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![AppleScript](...) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Batch convert docx documents to PDFs in lightspeed. |
+
+---
+
 ## Highlighted Projects
 
 | | | | |
@@ -24,12 +33,6 @@
 
 --- 
 
-## Mac-Apps
-
-| Project | Tech | Platform | Description |
-|:---:|:---:|:---:|---|
-| ✏️ [BriskEdit](https://github.com/jx-grxf/BriskEdit) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Native macOS developer text editor built with SwiftUI, AppKit, TextKit 2, and Swift 6. |
-| 📄 [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![AppleScript](...) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Batch convert docx documents to PDFs in lightspeed. |
 
 ### Unmaintained 
 
