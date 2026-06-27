@@ -1,13 +1,13 @@
 ## Hi there, I'm Johannes 👋
 
-📍 **Austria** | 🏫 **HTL-Student** | 💻 **Swift, C, , Java, JS/TS & AI**
+📍 **Austria** | 🏫 **HTL Student** | 💻 **Swift, C, Java, JS/TS & AI**
 
 ---
 
 ## About Me
 
-- 🎓 2nd grade **HTL-Student** in Austria 
-- 💻 Learning **C**, **Swift** , **Java** and **TypeScript / JavaScript**
+- 🎓 2nd grade **HTL student** in Austria
+- 💻 Learning **C**, **Swift**, **Java**, and **TypeScript / JavaScript**
 - 🤖 Interested in **AI development & LLMs**
 - 🔧 Experienced in using Codex, Claude Code, and other agentic coding AIs.
 
@@ -18,9 +18,9 @@
 | Project | Tech | Platform | Description |
 |:---:|:---:|:---:|---|
 | ✏️ [BriskEdit](https://github.com/jx-grxf/BriskEdit) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Native macOS developer text editor built with SwiftUI, AppKit, TextKit 2, and Swift 6. |
-| 📄 [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![AppleScript](...) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Batch convert docx documents to PDFs in lightspeed. |
-| 📱 [MacPhone](https://github.com/jx-grxf/MacPhone) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | macOS device lab mit CoreBluetooth-BLE-Bridge für Emulator-Testing. |
-| 🍾 [BottleLite](https://github.com/jx-grxf/BottleLite) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Open-Source macOS Runner für Windows-Apps. |
+| 📄 [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![AppleScript](https://img.shields.io/badge/AppleScript-999999?logo=apple&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Batch convert DOCX documents to PDFs quickly. |
+| 📱 [MacPhone](https://github.com/jx-grxf/MacPhone) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | macOS device lab with a CoreBluetooth BLE bridge for emulator testing. |
+| 🍾 [BottleLite](https://github.com/jx-grxf/BottleLite) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Open-source macOS runner for Windows apps. |
 
 ---
 
@@ -32,7 +32,7 @@
 | 🛠️ [PatchPilot](https://github.com/jx-grxf/PatchPilot) - BETA | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![Ollama](https://img.shields.io/badge/LLM-Ollama-000000) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) | PatchPilot is a local-first terminal coding agent that helps developers safely inspect, plan, and apply code changes with explicit permission controls for file writes and shell commands using Ollama, Gemini or Codex, with high token efficiency thanks to token-caching. |
 | 🛠️ [Digi2PDF - down ❌](https://github.com/jx-grxf/Digi2PDF) | ![Python](https://img.shields.io/badge/python-3.12%2B-blue) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?logo=Selenium&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-grey?logo=linux) | Taken down due to legal matters. ⛔️ |
 | 🌐 [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me) | ![Astro](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff) | ![Web](https://img.shields.io/badge/Web-4285F4?logo=googlechrome&logoColor=white) | Personal domain website repository. |
-| ❤️ [HealthKit-MCP](https://github.com/jx-grxf/HealthKit-MCP) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-000000) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Read-only MCP-Bridge für Apple Health — Sleep, Workouts, Trends for ChatGPT, Claude, Codex. |
+| ❤️ [HealthKit-MCP](https://github.com/jx-grxf/HealthKit-MCP) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-000000) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Read-only MCP bridge for Apple Health: sleep, workouts, and trends for ChatGPT, Claude, and Codex. |
 
 --- 
 
@@ -96,8 +96,8 @@
 ## Roadmap
 
 - ⚙️ AI Development & Agents
-- 📱 mac apps w. swift
-- 🌐 Type/Java - script
+- 📱 macOS apps with Swift
+- 🌐 TypeScript / JavaScript
 - 🔐 cybersecurity
 
 ---
