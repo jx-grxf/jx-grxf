@@ -18,12 +18,18 @@
 | Project | Tech | Platform | Description |
 |:---:|:---:|:---:|---|
 | ✏️ [BriskEdit](https://github.com/jx-grxf/BriskEdit) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Native macOS developer text editor built with SwiftUI, AppKit, TextKit 2, and Swift 6. |
-| 📄 [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![AppleScript](https://img.shields.io/badge/AppleScript-999999?logo=apple&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Batch convert DOCX documents to PDFs quickly. |
 | 📱 [MacPhone](https://github.com/jx-grxf/MacPhone) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | macOS device lab with a CoreBluetooth BLE bridge for emulator testing. |
 | 🍾 [BottleLite](https://github.com/jx-grxf/BottleLite) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Open-source macOS runner for Windows apps. |
 | 🧍 [poise](https://github.com/jx-grxf/poise) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Turn your AirPods into a posture coach — native macOS menu bar app that tracks head posture via AirPods motion sensors, fully local (no camera, no cloud). |
 | 🔀 [claude-swap-bar](https://github.com/jx-grxf/claude-swap-bar) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Native macOS menu bar app for switching between Claude Code accounts, with live usage meters. |
 | 📲 [NotchTray](https://github.com/jx-grxf/NotchTray) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Recovers menu bar status items hidden behind the MacBook notch and surfaces them in a Dynamic Island-style dropdown. |
+
+### Mac Unmaintained
+
+| Project | Tech | Platform | Description |
+|:---:|:---:|:---:|---|
+| 🔊 [SlamX](https://github.com/jx-grxf/SlamX) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Want to make your MacBook scream? |
+| 📄 [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![AppleScript](https://img.shields.io/badge/AppleScript-999999?logo=apple&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Batch convert DOCX documents to PDFs quickly. |
 
 ---
 
@@ -40,15 +46,6 @@
 | 🧰 [ip-multitool](https://github.com/jx-grxf/ip-multitool) | ![Python](https://img.shields.io/badge/python-3.12%2B-blue) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-grey?logo=linux) | Terminal toolkit for IP intelligence, DNS/RDAP lookups, HTTP checks, subnet math, and authorized network diagnostics. |
 
 --- 
-
-
-### Unmaintained 
-
-| Project | Tech | Platform | Description |
-|:---:|:---:|:---:|---|
-| 🔊 [SlamX](https://github.com/jx-grxf/SlamX) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white) | Want to make your MacBook scream? |
-
----
 
 ### Coming soon
 
