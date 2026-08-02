@@ -6,7 +6,7 @@
 
 ## About Me
 
-- 🎓 2nd grade **HTL student** in Austria
+- 🎓 2nd-year **HTL student** at HTBLA Kaindorf an der Sulm, Austria
 - 💻 Learning **C**, **Swift**, **Java**, and **TypeScript / JavaScript**
 - 🤖 Interested in **AI development & LLMs**
 - 🔧 Experienced in using Codex, Claude Code, and other agentic coding AIs.
@@ -71,7 +71,6 @@
 
 | | | |
 |:---:|:---:|---|
-| 🦞 [openclaw](https://github.com/jx-grxf/openclaw) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 |
 | 📚 [EBookToPDF](https://github.com/jx-grxf/EBookToPDF) | ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) | Utility repository for converting ebooks into PDF format. |
 
 ---
@@ -88,8 +87,8 @@
 
 ## GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jx-grxf&show_icons=true&theme=dark)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jx-grxf&layout=compact&theme=dark)
+![GitHub Stats](https://github-stats-extended.vercel.app/api?username=jx-grxf&show_icons=true&theme=dark)
+![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=jx-grxf&layout=compact&theme=dark)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=jx-grxf&theme=dark)](https://git.io/streak-stats)
 
