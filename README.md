@@ -21,7 +21,7 @@ Austria · HTBLA Kaindorf an der Sulm · Swift · TypeScript · Rust
 > planning, live vehicle positions and disruptions — on iOS (SwiftUI), Android (Jetpack Compose)
 > and Apple Watch, backed by my own TypeScript BFF.
 >
-> Primary data source: **Verkehrsauskunft Österreich (VAO)** — the national mobility data
+> Primary data source: **Verkehrsauskunft Österreich (VAO)** - the national mobility data
 > platform behind Austria's official transit apps.
 >
 > **[oeffigo.app](https://oeffigo.app)** · closed TestFlight beta · Android in development
