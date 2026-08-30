@@ -7,7 +7,7 @@
 Austria · HTBLA Kaindorf an der Sulm · Swift · TypeScript · Rust
 
 [![Website](https://img.shields.io/badge/johannesgrof.me-000000?style=for-the-badge&logo=astro&logoColor=white)](https://johannesgrof.me)
-[![X](https://img.shields.io/badge/@jx__grxf-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/jx_grxf)
+[![X](https://img.shields.io/badge/@jx__grxf-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/johannesgrofdev)
 [![LinkedIn](https://img.shields.io/badge/Johannes_Grof-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johannes-grof)
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
