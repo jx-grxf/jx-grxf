@@ -50,12 +50,14 @@ graph TD
     MAC --> NT["NotchTray"]
     MAC --> BL["BottleLite"]
     MAC --> MP["MacPhone"]
+    MAC --> CC["CCrab"]
 
     AGT --> PP["PatchPilot"]
     AGT --> AP["agent-presence"]
     AGT --> CSB["claude-swap-bar"]
     AGT --> HK["HealthKit-MCP"]
 
+    NET --> TO["Tools"]
     NET --> IP["ip-multitool"]
     NET --> CR["Caruso-Reborn"]
     NET --> STD["scooter-tuning-db"]
@@ -72,6 +74,7 @@ graph TD
 | 📲 **[NotchTray](https://github.com/jx-grxf/NotchTray)** | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) ![AppKit](https://img.shields.io/badge/AppKit-333333?logo=apple&logoColor=white) | Finds menu bar items hidden behind the MacBook notch and surfaces them in a Dynamic Island-style panel. |
 | 🍾 **[BottleLite](https://github.com/jx-grxf/BottleLite)** | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) ![Wine](https://img.shields.io/badge/Wine-722F37?logo=wine&logoColor=white) | Lightweight open-source macOS runner for Windows apps. |
 | 🔀 **[claude-swap-bar](https://github.com/jx-grxf/claude-swap-bar)** | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) ![Sparkle](https://img.shields.io/badge/Sparkle-5E5CE6?logo=apple&logoColor=white) | Switch between Claude Code accounts from the menu bar, with live per-window usage meters. |
+| 🦀 **[CCrab](https://github.com/jx-grxf/CCrab)** | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) ![AppKit](https://img.shields.io/badge/AppKit-333333?logo=apple&logoColor=white) | Desktop companion for Claude Code. Live session state on a floating panel and usage limits in the menu bar, at **0.0% idle CPU** — Core Animation owns the timeline, so there is no draw loop. |
 | 📱 **[MacPhone](https://github.com/jx-grxf/MacPhone)** | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) ![CoreBluetooth](https://img.shields.io/badge/CoreBluetooth-0082FC?logo=bluetooth&logoColor=white) | macOS device lab that bridges a *real* BLE device into an Android emulator's virtual controller. |
 
 ---
@@ -92,6 +95,7 @@ graph TD
 | Project | Tech | What it does |
 |:---|:---|:---|
 | 🌐 **[johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me)** | ![Astro](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white) | My portfolio and project site. Bilingual (EN/DE), static, fast. |
+| 🧾 **[Tools](https://github.com/jx-grxf/tools)** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) | Merge, split, rotate and convert PDFs and images entirely in the browser — no upload, no account. Live at **[tools.johannesgrof.me](https://tools.johannesgrof.me)**. |
 | 📻 **[Caruso-Reborn](https://github.com/jx-grxf/Caruso-Reborn)** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Electron](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white) | Brings internet radio and modern sources back to first-generation T+A Caruso hi-fi systems over UPnP. |
 | 🛴 **[scooter-tuning-db](https://github.com/jx-grxf/scooter-tuning-db)** | ![Markdown](https://img.shields.io/badge/Docs-000000?logo=markdown&logoColor=white) ![BLE](https://img.shields.io/badge/BLE-0082FC?logo=bluetooth&logoColor=white) | Open, community-reverse-engineered BLE register and tuning map database for e-scooters. |
 
@@ -120,8 +124,7 @@ graph TD
 | 🔊 [SlamX](https://github.com/jx-grxf/SlamX) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | Want to make your MacBook scream? Fan and thermal control experiment. |
 | 📄 [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) | Batch convert DOCX to PDF on macOS via Word and AppleScript. |
 | 🎧 [Hermes-Discord-Voice](https://github.com/jx-grxf/Hermes-Discord-Voice) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) | Discord voice bridge for Hermes Agent. |
-| 🎙️ [OpenClaw-Discord-Voice](https://github.com/jx-grxf/OpenClaw-Discord-Voice) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) | Self-hosted Discord voice bridge for OpenClaw experiments. |
-| 📡 [arduino-distance-alarm](https://github.com/jx-grxf/adruino-distance-alarm) | ![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white) | Distance measurement with a local web dashboard. |
+| 📡 [arduino-distance-alarm](https://github.com/jx-grxf/arduino-distance-alarm) | ![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white) | Distance measurement with a local web dashboard. |
 | 📚 [EBookToPDF](https://github.com/jx-grxf/EBookToPDF) *(fork)* | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | Ebook to PDF conversion utility. |
 
 </details>
