@@ -4,14 +4,11 @@ import tempfile
 import unittest
 from unittest.mock import patch
 import urllib.error
-import xml.etree.ElementTree as ET
 
 spec = importlib.util.spec_from_file_location(
-    "profile_assets", Path(__file__).resolve().parents[1] / "scripts/profile.py")
+    "profile_data", Path(__file__).resolve().parents[1] / "scripts/profile.py")
 profile = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(profile)
-
-NS = {"svg": "http://www.w3.org/2000/svg"}
 
 
 def release(repo="BriskEdit", tag="v1.0.0", date="2026-09-01"):
@@ -31,11 +28,7 @@ def api_release(repo="BriskEdit", **overrides):
     return item | overrides
 
 
-def stats():
-    return dict(public_repos=33, releases_shipped=49, latest=release())
-
-
-class ReleaseDataTests(unittest.TestCase):
+class ValidationTests(unittest.TestCase):
     def test_selection_is_sorted_newest_first_and_bounded(self):
         items = [release(repo, date=f"2026-09-{i + 1:02}") for i, repo in enumerate(profile.REPOS)]
         result = profile.validate(snapshot(items))["releases"]
@@ -118,67 +111,44 @@ class FetchTests(unittest.TestCase):
 
 
 class ReadmeTests(unittest.TestCase):
-    def test_update_preserves_handwritten_content_and_is_idempotent(self):
-        original = "intro\n<!-- releases:start -->\nold\n<!-- releases:end -->\nfooter\n"
-        updated = profile.readme_releases(original, [release()])
-        self.assertTrue(updated.startswith("intro\n"))
-        self.assertTrue(updated.endswith("\nfooter\n"))
-        self.assertIn(release()["url"], updated)
-        self.assertEqual(profile.readme_releases(updated, [release()]), updated)
+    def readme(self):
+        return ("intro\n<!-- counters:start -->\nold\n<!-- counters:end -->\nmiddle\n"
+                "<!-- releases:start -->\nold\n<!-- releases:end -->\nfooter\n")
+
+    def test_every_marker_block_is_replaced_and_handwritten_copy_survives(self):
+        text = self.readme()
+        for name, body in profile.render(profile.validate(snapshot())).items():
+            text = profile.replace_block(text, name, body)
+        self.assertTrue(text.startswith("intro\n"))
+        self.assertIn("\nmiddle\n", text)
+        self.assertTrue(text.endswith("\nfooter\n"))
+        self.assertNotIn("old", text)
+
+    def test_replacement_is_idempotent(self):
+        once = profile.replace_block(self.readme(), "counters", "body")
+        self.assertEqual(profile.replace_block(once, "counters", "body"), once)
 
     def test_missing_or_reversed_markers_are_rejected(self):
-        original = "intro\n<!-- releases:start -->\nold\n<!-- releases:end -->\nfooter\n"
-        for invalid in ("no markers", original + "<!-- releases:end -->",
-                        "<!-- releases:end --><!-- releases:start -->"):
+        for invalid in ("no markers",
+                        self.readme() + "<!-- counters:end -->",
+                        "<!-- counters:end --><!-- counters:start -->"):
             with self.subTest(invalid=invalid), self.assertRaises(ValueError):
-                profile.readme_releases(invalid, [release()])
+                profile.replace_block(invalid, "counters", "body")
 
+    def test_rendered_blocks_carry_the_live_numbers_and_link_out(self):
+        blocks = profile.render(profile.validate(snapshot()))
+        self.assertIn("**33** public repositories", blocks["counters"])
+        self.assertIn("**49** releases shipped", blocks["counters"])
+        self.assertIn(release()["url"], blocks["counters"])
+        self.assertIn(release()["url"], blocks["releases"])
+        self.assertIn("| Project | Version | Released |", blocks["releases"])
 
-class ArtworkTests(unittest.TestCase):
-    def every_document(self):
-        for theme in profile.PALETTE:
-            for mobile in (False, True):
-                yield f"header-{theme}-{mobile}", profile.header(stats(), theme, mobile), mobile
-                yield f"stack-{theme}-{mobile}", profile.stack(theme, mobile), mobile
-
-    def test_every_variant_is_well_formed_titled_and_script_free(self):
-        for name, content, mobile in self.every_document():
+    def test_the_real_readme_carries_every_marker_pair(self):
+        text = (Path(profile.ROOT) / "README.md").read_text()
+        for name in profile.MARKERS:
             with self.subTest(name=name):
-                root = ET.fromstring(content)  # an unescaped "&" would raise here
-                self.assertIsNotNone(root.find("svg:title", NS))
-                self.assertIsNotNone(root.find("svg:desc", NS))
-                self.assertFalse(root.findall(".//svg:script", NS))
-                self.assertEqual(root.attrib["width"], "480" if mobile else "960")
-
-    def test_link_badges_are_well_formed_and_labelled(self):
-        for _, label, kind in profile.LINKS:
-            with self.subTest(kind=kind):
-                root = ET.fromstring(profile.link_badge(label, kind))
-                self.assertEqual(root.attrib["aria-label"], label)
-                self.assertFalse(root.findall(".//svg:script", NS))
-
-    def test_no_attribute_carries_the_quoted_font_stack(self):
-        # The font stack contains double quotes and must stay inside <style>.
-        for name, content, _ in self.every_document():
-            with self.subTest(name=name):
-                self.assertNotIn('font-family="', content)
-        for _, label, kind in profile.LINKS:
-            self.assertNotIn('font-family="', profile.link_badge(label, kind))
-
-    def test_ampersands_in_stack_labels_survive_rendering(self):
-        self.assertIn("BACKEND &amp; WEB", profile.stack("light"))
-
-    def test_animation_never_starts_from_a_hidden_state(self):
-        # A renderer that ignores CSS animation must still show every element.
-        for name, content, _ in self.every_document():
-            with self.subTest(name=name):
-                self.assertNotIn("opacity: 0", content)
-
-    def test_live_counters_reach_the_header(self):
-        content = profile.header(stats(), "light")
-        self.assertIn(">33<", content)
-        self.assertIn(">49<", content)
-        self.assertIn(">BriskEdit<", content)
+                self.assertEqual(text.count(f"<!-- {name}:start -->"), 1)
+                self.assertEqual(text.count(f"<!-- {name}:end -->"), 1)
 
 
 if __name__ == "__main__":

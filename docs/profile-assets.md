@@ -1,30 +1,21 @@
-# Profile assets
+# Profile maintenance
 
-The profile is plain Markdown plus original SVG artwork that is generated from
-`scripts/profile.py` and checked in. It needs no image service, package install,
-badge CDN or deployed backend, so nothing on the page can break from the outside.
+The profile is plain Markdown. Two things are generated: the release table and
+the counter line under the badges, both written by `scripts/profile.py` from a
+saved snapshot in `assets/profile.json`. Everything else is handwritten.
 
 ## Editing
 
-- Edit the copy, project selection and links in `README.md`.
-- Edit the header art, the stack panel and the contact pills in `scripts/profile.py`.
-- Run `python3 scripts/profile.py` to rebuild from the saved snapshot.
-- Run `python3 scripts/profile.py --refresh` to fetch public release data.
+- Edit the copy, project selection, badges and links directly in `README.md`.
+- Run `python3 scripts/profile.py` to rewrite the generated blocks from the snapshot.
+- Run `python3 scripts/profile.py --refresh` to fetch fresh data from GitHub first.
   An optional `GITHUB_TOKEN` raises the API rate limit; it is never written to disk.
 - Run `python3 -m unittest discover -s tests -v` and
   `python3 scripts/profile.py --check` before committing.
 
-The generator uses only the Python standard library (Python 3.10+).
-
-## What is generated
-
-| File | Contents |
-| :--- | :--- |
-| `assets/header-*.svg` | Hero art in light/dark and desktop/mobile, including the live counters. |
-| `assets/stack-*.svg` | The stack panel, same four variants. |
-| `assets/link-*.svg` | Contact pills. Ink on both GitHub themes, so they need no `<picture>`. |
-| `assets/profile.json` | The snapshot: public repository count, releases shipped, newest releases. |
-| `README.md` | Only the table between the `<!-- releases:start -->` markers. |
+The script uses only the Python standard library (Python 3.10+). It touches
+nothing outside the `<!-- releases:… -->` and `<!-- counters:… -->` marker pairs,
+so handwritten copy between them is never at risk.
 
 ## Live data
 
@@ -38,35 +29,32 @@ GitHub API errors abort the refresh before any file is written, which preserves
 the last good snapshot. The snapshot records release dates, never a generation
 timestamp, so an unchanged profile produces no commit.
 
-The counters appear in the header art as well as in the release table. The
-refresh workflow therefore stages the whole `assets` directory — staging only the
-release files would leave stale numbers in the header and fail the next `--check`.
-
-## Workflow
-
 `Profile assets` verifies every push and pull request. On the default branch it
-also refreshes releases every six hours (00:23, 06:23, 12:23 and 18:23 UTC) or on
-manual dispatch, and commits only when the data changed. GitHub may delay
-scheduled runs and cache images: this is a snapshot, not a real-time feed.
-Dispatching on a feature branch only verifies. The workflow uses the built-in
-token and a pinned checkout action. If branch protection rejects the update
-commit, the job fails visibly and the existing assets stay available.
+also refreshes every six hours (00:23, 06:23, 12:23 and 18:23 UTC) or on manual
+dispatch, and commits only when the data changed. Dispatching on a feature branch
+only verifies. GitHub may delay scheduled runs: this is a snapshot, not a live feed.
 
-## Rendering rules
+## Contribution snake
 
-Both illustrations ship separate light/dark and mobile/desktop variants, selected
-by `<picture>`. GitHub strips ordinary page CSS and JavaScript, so all animation
-lives inside the SVG.
+`Contribution snake` renders the contribution graph animation nightly at 02:17
+UTC and force-pushes `snake.svg` and `snake-dark.svg` to the orphan `output`
+branch. The README loads them from `raw.githubusercontent.com`, so the images
+come from this repository rather than a third-party renderer.
 
-Animation moves position only, never opacity. A renderer that ignores CSS
-animation — a thumbnailer, a feed reader, an email client — still shows every
-element instead of a blank card. `prefers-reduced-motion` disables it entirely.
+The force-push is deliberate: it keeps `output` at a single commit instead of
+adding a history entry every night. `workflow_dispatch` only works once the
+workflow exists on the default branch, so the images 404 until the first run
+after merge.
 
-The font stack contains double quotes and must stay inside a `<style>` block; in
-an XML attribute it would terminate the attribute and break the file. Row labels
-such as `BACKEND & WEB` have to be escaped for the same reason. Both rules are
-covered by tests, because both were real breakages.
+## Third-party images
 
-Release links are repeated as Markdown so they stay clickable and readable to a
-screen reader; SVG text is not. After changing any `<picture>` markup, check the
-real GitHub rendering in both themes and at a narrow viewport.
+The badges are external services and can fail independently of this repository:
+
+| Service | Used for |
+| :--- | :--- |
+| `img.shields.io` | Contact badges and the individual technology badges. |
+| `skillicons.dev` | The four icon rows in "What I work with". |
+| `readme-typing-svg.demolab.com` | The animated line under the name. |
+
+If one of them goes down, the page still reads correctly; only the images break.
+Nothing here depends on them for meaning, and the alt text carries the content.

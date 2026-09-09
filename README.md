@@ -1,9 +1,21 @@
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/header-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/header-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="960" alt="Johannes Grof: software that does one thing, properly. Native Mac and iPhone apps, developer tools and the backends that keep them running. Made in Austria, HTL Kaindorf.">
-</picture>
+<div align="center">
+
+# Johannes Grof
+
+[![Software that does one thing, properly.](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&duration=3500&pause=900&color=F05138&center=true&vCenter=true&width=720&height=52&lines=Software+that+does+one+thing%2C+properly.;Native+Mac+and+iPhone+apps.;Developer+tools+and+the+backends+behind+them.;mac+4+life.)](https://johannesgrof.me)
+
+**Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust**
+
+[![Website](https://img.shields.io/badge/johannesgrof.me-000000?style=for-the-badge&logo=astro&logoColor=white)](https://johannesgrof.me)
+[![X](https://img.shields.io/badge/@johannesgrofdev-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/johannesgrofdev)
+[![LinkedIn](https://img.shields.io/badge/Johannes_Grof-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johannes-grof)
+[![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
+
+<!-- counters:start -->
+**33** public repositories · **49** releases shipped · latest **[BriskEdit v0.6.0](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.0)**
+<!-- counters:end -->
+
+</div>
 
 ### Servus, I'm Johannes.
 
@@ -11,8 +23,6 @@ I'm a developer from south-east Styria and a student at HTL Kaindorf. I build na
 iPhone apps, developer tools, and the backends that keep them running. Most of it starts as a
 problem I ran into myself: a workflow with too many steps, a device that won't cooperate, an
 app that should exist and doesn't.
-
-[![johannesgrof.me](assets/link-website.svg)](https://johannesgrof.me) [![@johannesgrofdev on X](assets/link-x.svg)](https://x.com/johannesgrofdev) [![Johannes Grof on LinkedIn](assets/link-linkedin.svg)](https://www.linkedin.com/in/johannes-grof) [![contact@johannesgrof.me](assets/link-email.svg)](mailto:contact@johannesgrof.me)
 
 ---
 
@@ -26,7 +36,12 @@ mobility data platform (VAO). Most of my time goes here.
 
 Currently in a **closed TestFlight beta**. Android development is paused.
 
-`SwiftUI` · `WidgetKit` · `ActivityKit` · `TypeScript` · `PostgreSQL` · `Redis`
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0A84FF?style=flat-square&logo=swift&logoColor=white)
+![WidgetKit](https://img.shields.io/badge/WidgetKit-5E5CE6?style=flat-square&logo=apple&logoColor=white)
+![ActivityKit](https://img.shields.io/badge/ActivityKit-32ADE6?style=flat-square&logo=apple&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
 
 **[See the app and join the waitlist →](https://oeffigo.app)**
 
@@ -92,24 +107,43 @@ Mac apps ship notarized with a Sparkle update feed. CLI tools ship through my ow
 
 ## What I work with
 
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/stack-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/stack-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" width="960" alt="Native: Swift, SwiftUI, AppKit, WidgetKit, ActivityKit. Backend and web: TypeScript, Node.js, Rust, Python, Astro. Data and shipping: PostgreSQL, Supabase, Cloudflare, Railway, Sparkle.">
-</picture>
+**Languages**
+
+[![Languages](https://skillicons.dev/icons?i=swift,ts,js,rust,py,kotlin,c,java&theme=dark)](https://skillicons.dev)
+
+**Platforms and frameworks**
+
+[![Platforms](https://skillicons.dev/icons?i=apple,nodejs,astro,tailwind,electron&theme=dark)](https://skillicons.dev)
+
+**Infrastructure and services**
+
+[![Infrastructure](https://skillicons.dev/icons?i=supabase,postgres,redis,cloudflare,vercel,aws,docker,linux&theme=dark)](https://skillicons.dev)
+
+**Tooling**
+
+[![Tooling](https://skillicons.dev/icons?i=git,github,bash,vscode&theme=dark)](https://skillicons.dev)
+
+![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white)
+![Tuist](https://img.shields.io/badge/Tuist-6236FF?style=flat-square)
+![Sparkle](https://img.shields.io/badge/Sparkle-5E5CE6?style=flat-square)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-111827?style=flat-square)
 
 **Learning right now:** [Rust](https://github.com/jx-grxf/rust_learning) and
 [TypeScript](https://github.com/jx-grxf/typescript_learning), hands-on in public repos.
 
-<details>
-<summary>Also worked with</summary>
+---
 
-<br>
+## Activity
 
-C · Java · JavaScript · Kotlin / Jetpack Compose · Electron · Docker · Linux · AWS · Playwright · MCP
+<div align="center">
 
-</details>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jx-grxf/jx-grxf/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/jx-grxf/jx-grxf/output/snake.svg" alt="A snake eating my GitHub contribution graph." width="880">
+</picture>
+
+</div>
 
 ---
 
