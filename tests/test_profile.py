@@ -4,6 +4,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 import urllib.error
+import xml.etree.ElementTree as ET
 
 spec = importlib.util.spec_from_file_location(
     "profile_data", Path(__file__).resolve().parents[1] / "scripts/profile.py")
@@ -17,8 +18,16 @@ def release(repo="BriskEdit", tag="v1.0.0", date="2026-09-01"):
 
 
 def snapshot(releases=None, **counters):
-    return dict(public_repos=33, releases_shipped=49,
-                releases=[release()] if releases is None else releases) | counters
+    return dict(public_repos=33, releases_shipped=49, downloads=2357,
+                releases=[release()] if releases is None else releases,
+                now=dict(repo="BriskEdit", pushed="2026-09-09T11:50:52Z",
+                         url="https://github.com/jx-grxf/BriskEdit")) | counters
+
+
+def owned_repo(name="BriskEdit", **overrides):
+    item = dict(name=name, private=False, fork=False, pushed_at="2026-09-09T11:50:52Z",
+                html_url=f"https://github.com/jx-grxf/{name}")
+    return item | overrides
 
 
 def api_release(repo="BriskEdit", **overrides):
@@ -54,9 +63,21 @@ class ValidationTests(unittest.TestCase):
                 profile.validate(snapshot(items))
 
     def test_implausible_counters_are_rejected(self):
-        for counters in (dict(public_repos=0), dict(releases_shipped=99999)):
+        for counters in (dict(public_repos=0), dict(releases_shipped=99999),
+                         dict(downloads=-1), dict(downloads=10_000_000)):
             with self.subTest(counters=counters), self.assertRaises(ValueError):
                 profile.validate(snapshot(**counters))
+
+    def test_the_workbench_repository_must_be_a_real_public_repository(self):
+        for now in (dict(repo="../evil", url="https://github.com/jx-grxf/../evil"),
+                    dict(repo="BriskEdit", url="https://example.com/BriskEdit"),
+                    dict(repo="BriskEdit", url="https://github.com/someone/BriskEdit"),
+                    dict(repo="BriskEdit", pushed="whenever",
+                         url="https://github.com/jx-grxf/BriskEdit")):
+            with self.subTest(now=now), self.assertRaises(ValueError):
+                base = dict(repo="BriskEdit", pushed="2026-09-09T11:50:52Z",
+                            url="https://github.com/jx-grxf/BriskEdit")
+                profile.validate(snapshot() | dict(now=base | now))
 
 
 class FetchTests(unittest.TestCase):
@@ -70,6 +91,8 @@ class FetchTests(unittest.TestCase):
                 return [api_release()]
             if path == "users/jx-grxf":
                 return {"public_repos": 33}
+            if path.startswith("users/jx-grxf/repos"):
+                return [owned_repo()]
             self.fail(f"Unexpected API request: {path}")
 
         with patch.object(profile, "REPOS", ("MacPhone", "BriskEdit")), \
@@ -78,6 +101,8 @@ class FetchTests(unittest.TestCase):
 
     def test_drafts_prereleases_and_missing_releases_are_skipped(self):
         def api(path):
+            if path.startswith("users/jx-grxf/repos"):
+                return [owned_repo()]
             if path == "users/jx-grxf":
                 return {"public_repos": 33}
             if path.count("/") == 2:
@@ -113,6 +138,7 @@ class FetchTests(unittest.TestCase):
 class ReadmeTests(unittest.TestCase):
     def readme(self):
         return ("intro\n<!-- counters:start -->\nold\n<!-- counters:end -->\nmiddle\n"
+                "<!-- now:start -->\nold\n<!-- now:end -->\nmiddle\n"
                 "<!-- releases:start -->\nold\n<!-- releases:end -->\nfooter\n")
 
     def test_every_marker_block_is_replaced_and_handwritten_copy_survives(self):
@@ -143,6 +169,12 @@ class ReadmeTests(unittest.TestCase):
         self.assertIn(release()["url"], blocks["releases"])
         self.assertIn("| Project | Version | Released |", blocks["releases"])
 
+    def test_the_workbench_line_names_the_repository_and_links_to_it(self):
+        now = profile.render(profile.validate(snapshot()))["now"]
+        self.assertIn("BriskEdit", now)
+        self.assertIn("https://github.com/jx-grxf/BriskEdit", now)
+        self.assertIn("09 Sep 2026", now)
+
     def test_the_real_readme_carries_every_marker_pair(self):
         text = (Path(profile.ROOT) / "README.md").read_text()
         for name in profile.MARKERS:
@@ -153,3 +185,48 @@ class ReadmeTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class OdometerTests(unittest.TestCase):
+    def svg(self, downloads=2357, releases=49):
+        return profile.odometer(downloads, releases)
+
+    def reels(self, svg):
+        ns = "{http://www.w3.org/2000/svg}"
+        root = ET.fromstring(svg)
+        return [[t.text for t in g.iter(f"{ns}text")]
+                for g in root.iter(f"{ns}g") if g.get("class") == "reel"]
+
+    def test_every_reel_rests_on_its_final_digit(self):
+        # The whole point: a renderer that ignores CSS animation must show the
+        # real total, not a row of zeros.
+        for total in (0, 7, 49, 2357, 9_999_999):
+            with self.subTest(total=total):
+                resting = "".join(r[-1] for r in self.reels(self.svg(total)))
+                self.assertEqual(resting, f"{total:,}".replace(",", ""))
+
+    def test_reels_count_upward_towards_the_target(self):
+        for reel in self.reels(self.svg()):
+            digits = [int(d) for d in reel]
+            for before, after in zip(digits, digits[1:]):
+                self.assertEqual(after, (before + 1) % 10)
+
+    def test_animation_ends_at_the_rest_position(self):
+        svg = self.svg()
+        self.assertIn("to { transform: translateY(0); }", svg)
+        self.assertIn("prefers-reduced-motion", svg)
+
+    def test_document_is_well_formed_titled_and_script_free(self):
+        ns = {"svg": "http://www.w3.org/2000/svg"}
+        root = ET.fromstring(self.svg())
+        self.assertEqual(root.find("svg:title", ns).text, "2,357 downloads across 49 releases")
+        self.assertIn("2,357 downloads", root.attrib["aria-label"])
+        self.assertFalse(root.findall(".//svg:script", ns))
+
+    def test_each_reel_has_its_own_clip_so_neighbours_do_not_bleed(self):
+        ns = "{http://www.w3.org/2000/svg}"
+        root = ET.fromstring(self.svg())
+        clips = {c.get("id") for c in root.iter(f"{ns}clipPath")}
+        used = {g.get("clip-path") for g in root.iter(f"{ns}g") if g.get("clip-path")}
+        self.assertEqual(len(clips), 4)
+        self.assertEqual(used, {f"url(#{c})" for c in clips})

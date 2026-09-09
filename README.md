@@ -24,6 +24,10 @@ iPhone apps, developer tools, and the backends that keep them running. Most of i
 problem I ran into myself: a workflow with too many steps, a device that won't cooperate, an
 app that should exist and doesn't.
 
+<!-- now:start -->
+**On the workbench right now:** [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me), last pushed 09 Sep 2026.
+<!-- now:end -->
+
 ---
 
 ## ÖffiGo · Moving Austria
@@ -53,11 +57,11 @@ Currently in a **closed TestFlight beta**. Android development is paused.
 
 | Project | What it does |
 | :--- | :--- |
-| **[BriskEdit](https://github.com/jx-grxf/BriskEdit)**<br>`Swift` `AppKit` `TextKit 2` | A native Mac text editor with an integrated terminal, Markdown preview and local language-server support, built against the Electron editor experience. |
-| **[agent-presence](https://github.com/jx-grxf/agent-presence)**<br>`Rust` `CLI` | Discord Rich Presence for Claude Code and Codex. One static binary for macOS, Windows and Linux, no bot token. |
-| **[BottleLite](https://github.com/jx-grxf/BottleLite)**<br>`Swift` `Wine` | A lightweight macOS runner for Windows apps, without the weight of a full compatibility suite. |
-| **[poise](https://github.com/jx-grxf/poise)**<br>`Swift` `CoreMotion` | Turns the motion sensors in your AirPods into a posture coach. No camera, no cloud, fully on-device. |
-| **[PatchPilot](https://github.com/jx-grxf/PatchPilot)**<br>`TypeScript` `Ollama` | A local-first terminal coding agent. Every file write and shell command needs explicit permission. |
+| **[BriskEdit](https://github.com/jx-grxf/BriskEdit)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/BriskEdit/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/BriskEdit/releases)<br>`Swift` `AppKit` `TextKit 2` | A native Mac text editor with an integrated terminal, Markdown preview and local language-server support, built against the Electron editor experience. |
+| **[agent-presence](https://github.com/jx-grxf/agent-presence)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/agent-presence/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/agent-presence/releases)<br>`Rust` `CLI` | Discord Rich Presence for Claude Code and Codex. One static binary for macOS, Windows and Linux, no bot token. |
+| **[BottleLite](https://github.com/jx-grxf/BottleLite)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/BottleLite/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/BottleLite/releases)<br>`Swift` `Wine` | A lightweight macOS runner for Windows apps, without the weight of a full compatibility suite. |
+| **[poise](https://github.com/jx-grxf/poise)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/poise/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/poise/releases)<br>`Swift` `CoreMotion` | Turns the motion sensors in your AirPods into a posture coach. No camera, no cloud, fully on-device. |
+| **[PatchPilot](https://github.com/jx-grxf/PatchPilot)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/PatchPilot/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/PatchPilot/releases)<br>`TypeScript` `Ollama` | A local-first terminal coding agent. Every file write and shell command needs explicit permission. |
 | **[ip-multitool](https://github.com/jx-grxf/ip-multitool)**<br>`Python` `CLI` | IP intelligence, DNS, RDAP, HTTP checks and subnet math for authorized network diagnostics. |
 
 <details>
@@ -89,9 +93,21 @@ Also on the workbench: **PortPirate**, a Mac menu bar tool for local dev ports, 
 
 ## Recent releases
 
+<img src="assets/downloads.svg" width="300" align="right" alt="Download counter.">
+
 Mac apps ship notarized with a Sparkle update feed. CLI tools ship through my own
-[Homebrew tap](https://github.com/jx-grxf/homebrew-tap) and
-[Scoop bucket](https://github.com/jx-grxf/scoop-bucket). Newest first:
+Homebrew tap and Scoop bucket:
+
+```bash
+# macOS
+brew install jx-grxf/tap/agent-presence
+
+# Windows
+scoop bucket add jx-grxf https://github.com/jx-grxf/scoop-bucket
+scoop install agent-presence
+```
+
+Newest first:
 
 <!-- releases:start -->
 | Project | Version | Released |
