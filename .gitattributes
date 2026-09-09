@@ -2,4 +2,4 @@
 scripts/** linguist-vendored
 tests/** linguist-vendored
 assets/*.svg linguist-generated
-assets/releases.json linguist-generated
+assets/profile.json linguist-generated

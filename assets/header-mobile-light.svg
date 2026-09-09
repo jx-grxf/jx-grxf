@@ -1,47 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="338" viewBox="0 0 480 338" role="img" aria-labelledby="title desc">
-<title id="title">Johannes Grof — native by nature</title>
-<desc id="desc">Student developer in Austria. Native Mac apps, useful tools and curious detours. A small train arrives along the bottom of the window.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="396" viewBox="0 0 480 396" role="img" aria-labelledby="t d">
+<title id="t">Johannes Grof — software that does one thing, properly</title>
+<desc id="d">Johannes Grof, developer in Austria. Software that does one thing, properly. Native Mac and iPhone apps, developer tools and the backends that keep them running. Six marks for the kinds of things he builds, and a live strip: 33 public repositories, 49 releases shipped, latest BriskEdit v0.6.0.</desc>
 <style>
-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #192c25; }
-.mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
-.muted { fill: #50675c; }
-.accent { fill: #286c40; }
-.enter { animation: enter .8s ease-out both; }
-.train { animation: journey 3.6s cubic-bezier(.25,.65,.25,1) both; }
-.cursor { animation: blink 1s step-end 3; }
-@keyframes enter { from { transform: translateY(5px); } to { transform: translateY(0); } }
-@keyframes journey { from { transform: translateX(0); } to { transform: translateX(350px); } }
-@keyframes blink { 50% { opacity: 0; } }
+text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #14130f; }
+.mono { font-family: "SFMono-Regular", ui-monospace, Consolas, "Liberation Mono", monospace; }
+.muted { fill: #6e6a5f; }
+.accent { fill: #b8431f; }
+.rise { animation: rise .7s cubic-bezier(.2,.7,.3,1) both; }
+/* Position only: a renderer that ignores CSS animation still shows every element. */
+@keyframes rise { from { transform: translateY(10px); } to { transform: translateY(0); } }
 @media (prefers-reduced-motion: reduce) {
-  .enter, .train, .cursor { animation: none; }
-  .train { transform: translateX(350px); }
+  * { animation: none !important; }
 }
 </style>
-<rect x="1" y="1" width="478" height="336" rx="20" fill="#f6f8f4" stroke="#c9d6cc"/>
-
-<path d="M1 54H479" stroke="#c9d6cc"/>
-<circle cx="26" cy="28" r="5" fill="#ef7970"/>
-<circle cx="44" cy="28" r="5" fill="#e6bf63"/>
-<circle cx="62" cy="28" r="5" fill="#78c990"/>
-<text x="258" y="33" text-anchor="middle" class="mono muted" font-size="12">johannes — ~/workbench</text>
-<g class="enter">
-<text x="32" y="96" class="mono accent" font-size="13" letter-spacing="2">MADE IN AUSTRIA</text>
-<text x="30" y="151" font-size="38" font-weight="700" letter-spacing="-1.8">Native by nature.</text>
-<text x="32" y="187" class="muted" font-size="18">Mac apps. Useful tools. Curious detours.</text>
-<text x="32" y="222" class="mono accent" font-size="15">mac 4 life.<tspan class="cursor"> ▍</tspan></text>
-</g>
-
-<path d="M32 278H448" stroke="#a9c3b0" stroke-width="3"/>
-<g fill="#f6f8f4" stroke="#286c40" stroke-width="2">
-<circle cx="40" cy="278" r="5"/><circle cx="240" cy="278" r="5"/><circle cx="440" cy="278" r="5"/>
-</g>
-<g class="train">
-<rect x="35" y="261" width="54" height="20" rx="6" fill="#286c40"/>
-<path d="M44 267h9m5 0h9m5 0h9" stroke="#f6f8f4" stroke-width="4"/>
-<circle cx="47" cy="283" r="3" fill="#192c25"/><circle cx="78" cy="283" r="3" fill="#192c25"/>
-</g>
-<text x="32" y="314" class="mono muted" font-size="12">01 / BUILD</text>
-<text x="240" y="314" text-anchor="middle" class="mono muted" font-size="12">02 / LEARN</text>
-<text x="448" y="314" text-anchor="end" class="mono muted" font-size="12">03 / REPEAT</text>
-
-</svg>
+<rect x=".5" y=".5" width="479" height="395" rx="18" fill="#faf8f4" stroke="#e2dace"/>
+<g class="rise"><text x="28" y="62" class="mono accent" font-size="12" letter-spacing="2.2">MADE IN AUSTRIA · HTL KAINDORF</text></g><g class="rise" style="animation-delay:0.06s"><text x="26" y="106" font-size="32" font-weight="700" letter-spacing="-1.5">Software that does</text></g><g class="rise" style="animation-delay:0.13s"><text x="26" y="144" font-size="32" font-weight="700" letter-spacing="-1.5">one thing, properly.</text></g><g class="rise" style="animation-delay:.2s"><text x="28" y="180" class="muted" font-size="15">Native Mac and iPhone apps, developer tools,</text><text x="28" y="202" class="muted" font-size="15">and the backends that keep them running.</text></g><g class="rise" style="animation-delay:0.24s"><rect x="28" y="232" width="58" height="58" rx="16" fill="#ffffff" stroke="#e2dace"/><path d="M48.0 252.0h5m-2.5 0v18m-2.5 0h5" stroke="#6e6a5f" stroke-width="2.4" stroke-linecap="round" fill="none"/><rect x="59.0" y="258.0" width="8" height="6" rx="1.5" fill="#6e6a5f"/></g><g class="rise" style="animation-delay:0.30s"><rect x="98" y="232" width="58" height="58" rx="16" fill="#df5638" stroke="#df5638"/><path d="M117.0 267.0h6a5 5 0 0 0 5-5v-4a5 5 0 0 1 5-5h4" stroke="#faf8f4" stroke-width="2.4" stroke-linecap="round" fill="none"/><circle cx="116.0" cy="267.0" r="3" fill="#faf8f4"/><circle cx="138.0" cy="253.0" r="3" fill="#faf8f4"/></g><g class="rise" style="animation-delay:0.36s"><rect x="168" y="232" width="58" height="58" rx="16" fill="#ffffff" stroke="#e2dace"/><path d="M187.0 254.0l6 6-6 6" stroke="#6e6a5f" stroke-width="2.4" stroke-linecap="round" fill="none"/><path d="M198.0 268.0h9" stroke="#6e6a5f" stroke-width="2.4" stroke-linecap="round" fill="none"/></g><g class="rise" style="animation-delay:0.42s"><rect x="238" y="232" width="58" height="58" rx="16" fill="#ffffff" stroke="#e2dace"/><path d="M251.0 257.0v8" stroke="#6e6a5f" stroke-width="2.6" stroke-linecap="round"/><path d="M259.0 253.0v16" stroke="#6e6a5f" stroke-width="2.6" stroke-linecap="round"/><path d="M267.0 250.0v22" stroke="#6e6a5f" stroke-width="2.6" stroke-linecap="round"/><path d="M275.0 254.0v14" stroke="#6e6a5f" stroke-width="2.6" stroke-linecap="round"/><path d="M283.0 256.5v9" stroke="#6e6a5f" stroke-width="2.6" stroke-linecap="round"/></g><g class="rise" style="animation-delay:0.48s"><rect x="308" y="232" width="58" height="58" rx="16" fill="#ffffff" stroke="#e2dace"/><path d="M324.0 250.0H328.0a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1H350.0a3 3 0 0 1 3 3V269.0a3 3 0 0 1-3 3H324.0a3 3 0 0 1-3-3V253.0a3 3 0 0 1 3-3z" stroke="#6e6a5f" stroke-width="2.4" stroke-linecap="round" fill="none"/></g><g class="rise" style="animation-delay:0.54s"><rect x="378" y="232" width="58" height="58" rx="16" fill="#ffffff" stroke="#e2dace"/><path d="M404.0 270.0a4 4 0 0 1 6 0" stroke="#6e6a5f" stroke-width="2.4" stroke-linecap="round" fill="none"/><path d="M398.0 263.0a12 12 0 0 1 18 0" stroke="#6e6a5f" stroke-width="2.4" stroke-linecap="round" fill="none"/><path d="M392.0 256.0a20 20 0 0 1 30 0" stroke="#6e6a5f" stroke-width="2.4" stroke-linecap="round" fill="none"/></g><path d="M28 326H452" stroke="#ece5d9"/><g class="rise" style="animation-delay:0.44s"><text x="28" y="352" font-size="17" font-weight="650">33</text><text x="28" y="369" class="mono muted" font-size="10" letter-spacing="1.4">PUBLIC REPOS</text></g><g class="rise" style="animation-delay:0.50s"><text x="169" y="352" font-size="17" font-weight="650">49</text><text x="169" y="369" class="mono muted" font-size="10" letter-spacing="1.4">RELEASES SHIPPED</text></g><g class="rise" style="animation-delay:0.56s"><text x="311" y="352" font-size="17" font-weight="650">BriskEdit</text><text x="311" y="369" class="mono muted" font-size="10" letter-spacing="1.4">LATEST · v0.6.0</text></g></svg>

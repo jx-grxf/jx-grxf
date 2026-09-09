@@ -53,7 +53,8 @@ jobs:
       - run: python3 scripts/profile.py --check
       - name: Commit changed release data
         run: |
-          git add assets/releases.json assets/releases*.svg README.md
+          # The live counters reach the header art too, so stage every generated file.
+          git add assets README.md
           if git diff --cached --quiet; then
             exit 0
           fi
