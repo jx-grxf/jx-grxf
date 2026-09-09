@@ -125,12 +125,27 @@ Newest first:
 
 ## What I work with
 
-| | |
-| :--- | :--- |
-| **Native** | Swift · SwiftUI · AppKit · WidgetKit · ActivityKit |
-| **Backend & web** | TypeScript · Node.js · Rust · Python · Astro |
-| **Data & hosting** | PostgreSQL / Supabase · Redis · Cloudflare · Railway · Vercel |
-| **Shipping** | Xcode · Tuist · GitHub Actions · Sparkle · notarized DMGs |
+**Languages**
+
+[![Languages](https://skillicons.dev/icons?i=swift,ts,js,rust,py,kotlin,c,java&theme=dark)](https://skillicons.dev)
+
+**Platforms and frameworks**
+
+[![Platforms](https://skillicons.dev/icons?i=apple,nodejs,astro,tailwind,electron&theme=dark)](https://skillicons.dev)
+
+**Infrastructure and services**
+
+[![Infrastructure](https://skillicons.dev/icons?i=supabase,postgres,redis,cloudflare,vercel,aws,docker,linux&theme=dark)](https://skillicons.dev)
+
+**Tooling**
+
+[![Tooling](https://skillicons.dev/icons?i=git,github,bash,vscode&theme=dark)](https://skillicons.dev)
+
+![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white)
+![Tuist](https://img.shields.io/badge/Tuist-6236FF?style=flat-square)
+![Sparkle](https://img.shields.io/badge/Sparkle-5E5CE6?style=flat-square)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-111827?style=flat-square)
 
 **Learning right now:** [Rust](https://github.com/jx-grxf/rust_learning) and
 [TypeScript](https://github.com/jx-grxf/typescript_learning), hands-on in public repos.
