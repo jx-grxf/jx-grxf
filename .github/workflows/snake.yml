@@ -35,12 +35,19 @@ jobs:
         env:
           TOKEN: ${{ github.token }}
         run: |
-          # An orphan force-push keeps `output` at one commit instead of growing
-          # a new history entry every night.
-          cd dist
+          set -euo pipefail
+          test -s dist/snake.svg && test -s dist/snake-dark.svg
+          # The render step runs in a container, so dist/ belongs to root and a
+          # git init inside it is denied. Copy the two files out first.
+          out="${RUNNER_TEMP}/snake"
+          mkdir -p "$out"
+          cp dist/snake.svg dist/snake-dark.svg "$out/"
+          cd "$out"
           git init -q
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add snake.svg snake-dark.svg
           git commit -q -m "chore: refresh contribution snake"
+          # An orphan force-push keeps `output` at one commit instead of growing
+          # a new history entry every night.
           git push -qf "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:output
