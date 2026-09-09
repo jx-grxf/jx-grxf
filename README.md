@@ -2,157 +2,122 @@
 
 # Johannes Grof
 
-**I build native macOS and iOS apps, developer tools, and the backends behind them.**
+[![Software that does one thing, properly.](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&duration=3500&pause=900&color=F05138&center=true&vCenter=true&width=720&height=52&lines=Software+that+does+one+thing%2C+properly.;Native+Mac+and+iPhone+apps.;Developer+tools+and+the+backends+behind+them.;mac+4+life.)](https://johannesgrof.me)
 
-Austria · HTBLA Kaindorf an der Sulm · Swift · TypeScript · Rust
+**Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust**
 
 [![Website](https://img.shields.io/badge/johannesgrof.me-000000?style=for-the-badge&logo=astro&logoColor=white)](https://johannesgrof.me)
-[![X](https://img.shields.io/badge/@jx__grxf-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/johannesgrofdev)
+[![X](https://img.shields.io/badge/@johannesgrofdev-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/johannesgrofdev)
 [![LinkedIn](https://img.shields.io/badge/Johannes_Grof-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johannes-grof)
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
-</div>
-
----
-
-## Currently building — ÖffiGo
-
-> **A truly native public transport app for all of Austria.** Real-time departures, journey
-> planning, live vehicle positions and disruptions — on iOS (SwiftUI), Android (Jetpack Compose)
-> and Apple Watch, backed by my own TypeScript BFF.
->
-> Primary data source: **Verkehrsauskunft Österreich (VAO)** - the national mobility data
-> platform behind Austria's official transit apps.
->
-> **[oeffigo.app](https://oeffigo.app)** · closed TestFlight beta · Android in development
-
-<div align="center">
-
-`SwiftUI` · `Jetpack Compose` · `TypeScript` · `Supabase` · `Redis` · `Cloudflare` · `Railway` · `Live Activities` · `Apple Intelligence`
+<!-- counters:start -->
+**33** public repositories · **49** releases shipped · latest **[BriskEdit v0.6.0](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.0)**
+<!-- counters:end -->
 
 </div>
 
----
+### Servus, I'm Johannes.
 
-## What I build
-
-```mermaid
-graph TD
-    ME(("Johannes Grof"))
-
-    ME --> MAC["🖥️ Native macOS &amp; iOS<br/>Swift · SwiftUI · AppKit"]
-    ME --> AGT["🤖 Agent &amp; Dev Tooling<br/>Rust · TypeScript"]
-    ME --> NET["🌐 Backend, Networking &amp; CLI<br/>TypeScript · Python · Rust"]
-
-    MAC --> OG["ÖffiGo"]
-    MAC --> BE["BriskEdit"]
-    MAC --> PO["poise"]
-    MAC --> NT["NotchTray"]
-    MAC --> BL["BottleLite"]
-    MAC --> MP["MacPhone"]
-    MAC --> CC["CCrab"]
-
-    AGT --> PP["PatchPilot"]
-    AGT --> AP["agent-presence"]
-    AGT --> CSB["claude-swap-bar"]
-    AGT --> HK["HealthKit-MCP"]
-
-    NET --> TO["Tools"]
-    NET --> IP["ip-multitool"]
-    NET --> CR["Caruso-Reborn"]
-    NET --> STD["scooter-tuning-db"]
-```
+I'm a developer from south-east Styria and a student at HTL Kaindorf. I build native Mac and
+iPhone apps, developer tools, and the backends that keep them running. Most of it starts as a
+problem I ran into myself: a workflow with too many steps, a device that won't cooperate, an
+app that should exist and doesn't.
 
 ---
 
-## macOS apps
+## ÖffiGo · Moving Austria
 
-| Project | Tech | What it does |
-|:---|:---|:---|
-| ✏️ **[BriskEdit](https://github.com/jx-grxf/BriskEdit)** | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) ![SwiftUI](https://img.shields.io/badge/SwiftUI-0A84FF?logo=swift&logoColor=white) | Native developer text editor. SwiftUI + AppKit, TextKit 2, Swift 6 — built against the Electron VS Code experience. |
-| 🧍 **[poise](https://github.com/jx-grxf/poise)** | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) ![CoreMotion](https://img.shields.io/badge/CoreMotion-333333?logo=apple&logoColor=white) | Turns your AirPods into a posture coach using their motion sensors. No camera, no cloud, fully on-device. |
-| 📲 **[NotchTray](https://github.com/jx-grxf/NotchTray)** | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) ![AppKit](https://img.shields.io/badge/AppKit-333333?logo=apple&logoColor=white) | Finds menu bar items hidden behind the MacBook notch and surfaces them in a Dynamic Island-style panel. |
-| 🍾 **[BottleLite](https://github.com/jx-grxf/BottleLite)** | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) ![Wine](https://img.shields.io/badge/Wine-722F37?logo=wine&logoColor=white) | Lightweight open-source macOS runner for Windows apps. |
-| 🔀 **[claude-swap-bar](https://github.com/jx-grxf/claude-swap-bar)** | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) ![Sparkle](https://img.shields.io/badge/Sparkle-5E5CE6?logo=apple&logoColor=white) | Switch between Claude Code accounts from the menu bar, with live per-window usage meters. |
-| 🦀 **[CCrab](https://github.com/jx-grxf/CCrab)** | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) ![AppKit](https://img.shields.io/badge/AppKit-333333?logo=apple&logoColor=white) | Desktop companion for Claude Code. Live session state on a floating panel and usage limits in the menu bar, at **0.0% idle CPU** — Core Animation owns the timeline, so there is no draw loop. |
-| 📱 **[MacPhone](https://github.com/jx-grxf/MacPhone)** | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) ![CoreBluetooth](https://img.shields.io/badge/CoreBluetooth-0082FC?logo=bluetooth&logoColor=white) | macOS device lab that bridges a *real* BLE device into an Android emulator's virtual controller. |
+**Public transport for the whole country, native on iPhone and Apple Watch.**
 
----
+Departures, journey planning and disruptions, with your trip on your wrist and in a Live
+Activity. A SwiftUI app on a TypeScript backend I wrote myself, running on Austria's national
+mobility data platform (VAO). Most of my time goes here.
 
-## Developer &amp; agent tooling
+Currently in a **closed TestFlight beta**. Android development is paused.
 
-| Project | Tech | What it does |
-|:---|:---|:---|
-| 🦀 **[agent-presence](https://github.com/jx-grxf/agent-presence)** | ![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white) ![macOS](https://img.shields.io/badge/-000000?logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/-0078D6?logo=windows&logoColor=white) ![Linux](https://img.shields.io/badge/-FCC624?logo=linux&logoColor=black) | Discord Rich Presence for Claude Code and Codex. One ~1.5 MB static binary, no bot token, privacy-safe defaults. |
-| 🛠️ **[PatchPilot](https://github.com/jx-grxf/PatchPilot)** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white) | Local-first terminal coding agent. Inspect, plan and apply changes with explicit permissions for every file write and shell command. |
-| ❤️ **[HealthKit-MCP](https://github.com/jx-grxf/HealthKit-MCP)** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white) | Read-only MCP bridge for Apple Health — sleep, workouts and training load for any MCP-capable agent. |
-| 🧰 **[ip-multitool](https://github.com/jx-grxf/ip-multitool)** | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | Terminal toolkit for IP intelligence, DNS/RDAP, HTTP checks, subnet math and authorized network diagnostics. |
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0A84FF?style=flat-square&logo=swift&logoColor=white)
+![WidgetKit](https://img.shields.io/badge/WidgetKit-5E5CE6?style=flat-square&logo=apple&logoColor=white)
+![ActivityKit](https://img.shields.io/badge/ActivityKit-32ADE6?style=flat-square&logo=apple&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
+
+**[See the app and join the waitlist →](https://oeffigo.app)**
 
 ---
 
-## Web, hardware &amp; open data
+## Selected work
 
-| Project | Tech | What it does |
-|:---|:---|:---|
-| 🌐 **[johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me)** | ![Astro](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white) | My portfolio and project site. Bilingual (EN/DE), static, fast. |
-| 🧾 **[Tools](https://github.com/jx-grxf/tools)** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) | Merge, split, rotate and convert PDFs and images entirely in the browser — no upload, no account. Live at **[tools.johannesgrof.me](https://tools.johannesgrof.me)**. |
-| 📻 **[Caruso-Reborn](https://github.com/jx-grxf/Caruso-Reborn)** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Electron](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white) | Brings internet radio and modern sources back to first-generation T+A Caruso hi-fi systems over UPnP. |
-| 🛴 **[scooter-tuning-db](https://github.com/jx-grxf/scooter-tuning-db)** | ![Markdown](https://img.shields.io/badge/Docs-000000?logo=markdown&logoColor=white) ![BLE](https://img.shields.io/badge/BLE-0082FC?logo=bluetooth&logoColor=white) | Open, community-reverse-engineered BLE register and tuning map database for e-scooters. |
-
----
-
-## Coming soon
-
-| Project | Tech | Status |
-|:---|:---|:---|
-| 🧰 **PortPirate** | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | macOS menu bar control center for local dev ports — maps every listener to its process and repo. |
-| ⌨️ **TypeBot** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33) | Stay tuned 👀 |
-
----
+| Project | What it does |
+| :--- | :--- |
+| **[BriskEdit](https://github.com/jx-grxf/BriskEdit)**<br>`Swift` `AppKit` `TextKit 2` | A native Mac text editor with an integrated terminal, Markdown preview and local language-server support, built against the Electron editor experience. |
+| **[agent-presence](https://github.com/jx-grxf/agent-presence)**<br>`Rust` `CLI` | Discord Rich Presence for Claude Code and Codex. One static binary for macOS, Windows and Linux, no bot token. |
+| **[BottleLite](https://github.com/jx-grxf/BottleLite)**<br>`Swift` `Wine` | A lightweight macOS runner for Windows apps, without the weight of a full compatibility suite. |
+| **[poise](https://github.com/jx-grxf/poise)**<br>`Swift` `CoreMotion` | Turns the motion sensors in your AirPods into a posture coach. No camera, no cloud, fully on-device. |
+| **[PatchPilot](https://github.com/jx-grxf/PatchPilot)**<br>`TypeScript` `Ollama` | A local-first terminal coding agent. Every file write and shell command needs explicit permission. |
+| **[ip-multitool](https://github.com/jx-grxf/ip-multitool)**<br>`Python` `CLI` | IP intelligence, DNS, RDAP, HTTP checks and subnet math for authorized network diagnostics. |
 
 <details>
-<summary><b>📦 Archive</b> — unmaintained projects &amp; forks</summary>
+<summary><b>More apps, experiments and rabbit holes</b></summary>
 
 <br>
 
-> [!NOTE]
-> These repositories are no longer maintained. They stay public for reference,
-> but expect no fixes, releases, or support.
+| Project | The idea |
+| :--- | :--- |
+| [NotchTray](https://github.com/jx-grxf/NotchTray) | Surface menu bar items hidden behind the MacBook notch. |
+| [CCrab](https://github.com/jx-grxf/CCrab) | A pixel crab on your desktop that reacts to Claude Code sessions, at 0% idle CPU. |
+| [claude-swap-bar](https://github.com/jx-grxf/claude-swap-bar) | Switch Claude Code accounts and watch usage from the menu bar. |
+| [MacPhone](https://github.com/jx-grxf/MacPhone) | A small device lab: bridge a real Bluetooth LE device into an Android emulator. |
+| [Caruso-Reborn](https://github.com/jx-grxf/Caruso-Reborn) | Bring internet radio and local playback back to first-generation T+A Caruso hi-fi systems. |
+| [Tools](https://tools.johannesgrof.me) | Merge, split and convert PDFs and images in the browser. Files never leave your device. |
+| [scooter-tuning-db](https://github.com/jx-grxf/scooter-tuning-db) | Community-documented BLE registers and tuning maps for e-scooters. |
+| [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me) | My bilingual portfolio, built with Astro and TypeScript. |
+| [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | Batch-convert DOCX to PDF on macOS through Word and AppleScript. |
+| [SlamX](https://github.com/jx-grxf/SlamX) | Want to make your MacBook scream? Fan and thermal control experiment. |
 
-| Project | Tech | Description |
-|:---|:---|:---|
-| 🔊 [SlamX](https://github.com/jx-grxf/SlamX) | ![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white) | Want to make your MacBook scream? Fan and thermal control experiment. |
-| 📄 [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) | Batch convert DOCX to PDF on macOS via Word and AppleScript. |
-| 🎧 [Hermes-Discord-Voice](https://github.com/jx-grxf/Hermes-Discord-Voice) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) | Discord voice bridge for Hermes Agent. |
-| 📡 [arduino-distance-alarm](https://github.com/jx-grxf/arduino-distance-alarm) | ![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white) | Distance measurement with a local web dashboard. |
-| 📚 [EBookToPDF](https://github.com/jx-grxf/EBookToPDF) *(fork)* | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | Ebook to PDF conversion utility. |
+Also on the workbench: **PortPirate**, a Mac menu bar tool for local dev ports, and
+**HealthKit-MCP**, a read-only Apple Health bridge for AI tools. Their source is private.
+
+**[Browse all public repositories →](https://github.com/jx-grxf?tab=repositories)**
 
 </details>
 
 ---
 
-## Stack
+## Recent releases
+
+Mac apps ship notarized with a Sparkle update feed. CLI tools ship through my own
+[Homebrew tap](https://github.com/jx-grxf/homebrew-tap) and
+[Scoop bucket](https://github.com/jx-grxf/scoop-bucket). Newest first:
+
+<!-- releases:start -->
+| Project | Version | Released |
+| :--- | :--- | :--- |
+| **[BriskEdit](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.0)** | `v0.6.0` | 05 Sep 2026 |
+| **[agent-presence](https://github.com/jx-grxf/agent-presence/releases/tag/v0.3.0)** | `v0.3.0` | 05 Sep 2026 |
+| **[NotchTray](https://github.com/jx-grxf/NotchTray/releases/tag/v1.0.0)** | `v1.0.0` | 02 Aug 2026 |
+| **[poise](https://github.com/jx-grxf/poise/releases/tag/v0.1.0)** | `v0.1.0` | 18 Jul 2026 |
+| **[claude-swap-bar](https://github.com/jx-grxf/claude-swap-bar/releases/tag/v1.1.1)** | `v1.1.1` | 18 Jul 2026 |
+<!-- releases:end -->
+
+<sub>Refreshed from the public GitHub API every six hours. Stable releases only, no drafts or prereleases.</sub>
+
+---
+
+## What I work with
 
 **Languages**
 
 [![Languages](https://skillicons.dev/icons?i=swift,ts,js,rust,py,kotlin,c,java&theme=dark)](https://skillicons.dev)
 
-**Platforms &amp; frameworks**
+**Platforms and frameworks**
 
 [![Platforms](https://skillicons.dev/icons?i=apple,nodejs,astro,tailwind,electron&theme=dark)](https://skillicons.dev)
 
-![SwiftUI](https://img.shields.io/badge/SwiftUI-0A84FF?style=flat-square&logo=swift&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-111827?style=flat-square)
+**Infrastructure and services**
 
-**Infrastructure &amp; services**
-
-[![Infra](https://skillicons.dev/icons?i=supabase,postgres,redis,cloudflare,vercel,aws,docker,linux&theme=dark)](https://skillicons.dev)
-
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
-![App Store Connect](https://img.shields.io/badge/App_Store_Connect-0D96F6?style=flat-square&logo=appstore&logoColor=white)
-![TestFlight](https://img.shields.io/badge/TestFlight-0D96F6?style=flat-square&logo=apple&logoColor=white)
-![Sparkle](https://img.shields.io/badge/Sparkle-5E5CE6?style=flat-square)
+[![Infrastructure](https://skillicons.dev/icons?i=supabase,postgres,redis,cloudflare,vercel,aws,docker,linux&theme=dark)](https://skillicons.dev)
 
 **Tooling**
 
@@ -160,23 +125,29 @@ graph TD
 
 ![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white)
 ![Tuist](https://img.shields.io/badge/Tuist-6236FF?style=flat-square)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square)
+![Sparkle](https://img.shields.io/badge/Sparkle-5E5CE6?style=flat-square)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-111827?style=flat-square)
+
+**Learning right now:** [Rust](https://github.com/jx-grxf/rust_learning) and
+[TypeScript](https://github.com/jx-grxf/typescript_learning), hands-on in public repos.
 
 ---
 
+## Activity
+
 <div align="center">
 
-![Stats](https://github-stats-extended.vercel.app/api?username=jx-grxf&show_icons=true&hide_border=true&theme=dark&card_width=450)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jx-grxf/jx-grxf/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/jx-grxf/jx-grxf/output/snake.svg" alt="A snake eating my GitHub contribution graph." width="880">
+</picture>
 
 </div>
 
 ---
 
-<div align="center">
+**Need something built or fixed?** I take on freelance websites, small tools, automation and
+IT support. On site in south-east Styria, remote across Austria.
 
-**Available for freelance work** — websites, small tools and automation, IT support.
-On-site in south-east Styria, remote across Austria.
-
-[johannesgrof.me](https://johannesgrof.me) · [contact@johannesgrof.me](mailto:contact@johannesgrof.me)
-
-</div>
+**[Let's talk →](mailto:contact@johannesgrof.me)** · [johannesgrof.me](https://johannesgrof.me)

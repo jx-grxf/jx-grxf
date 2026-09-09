@@ -1,0 +1,36 @@
+{
+  "public_repos": 33,
+  "releases_shipped": 49,
+  "releases": [
+    {
+      "repo": "BriskEdit",
+      "tag": "v0.6.0",
+      "published": "2026-09-05T22:05:47Z",
+      "url": "https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.0"
+    },
+    {
+      "repo": "agent-presence",
+      "tag": "v0.3.0",
+      "published": "2026-09-05T19:41:45Z",
+      "url": "https://github.com/jx-grxf/agent-presence/releases/tag/v0.3.0"
+    },
+    {
+      "repo": "NotchTray",
+      "tag": "v1.0.0",
+      "published": "2026-08-02T18:53:05Z",
+      "url": "https://github.com/jx-grxf/NotchTray/releases/tag/v1.0.0"
+    },
+    {
+      "repo": "poise",
+      "tag": "v0.1.0",
+      "published": "2026-07-18T18:48:13Z",
+      "url": "https://github.com/jx-grxf/poise/releases/tag/v0.1.0"
+    },
+    {
+      "repo": "claude-swap-bar",
+      "tag": "v1.1.1",
+      "published": "2026-07-18T10:36:18Z",
+      "url": "https://github.com/jx-grxf/claude-swap-bar/releases/tag/v1.1.1"
+    }
+  ]
+}

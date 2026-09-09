@@ -1,0 +1,4 @@
+# Keep profile maintenance code out of the language breakdown.
+scripts/** linguist-vendored
+tests/** linguist-vendored
+assets/profile.json linguist-generated
