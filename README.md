@@ -28,6 +28,8 @@ app that should exist and doesn't.
 
 ## ÖffiGo · Moving Austria
 
+<a href="https://oeffigo.app"><img src="assets/oeffigo-appicon.png" width="76" align="right" alt="The ÖffiGo app icon: a green Ö forming an arrow."></a>
+
 **Public transport for the whole country, native on iPhone and Apple Watch.**
 
 Departures, journey planning and disruptions, with your trip on your wrist and in a Live
