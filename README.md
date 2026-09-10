@@ -12,7 +12,7 @@ Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
 <!-- counters:start -->
-**33** public repositories · **49** releases shipped · latest **[BriskEdit v0.6.0](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.0)**
+**33** public repositories · **51** releases shipped · latest **[PatchPilot v2.0.1](https://github.com/jx-grxf/PatchPilot/releases/tag/v2.0.1)**
 <!-- counters:end -->
 
 </div>
@@ -25,7 +25,7 @@ problem I ran into myself: a workflow with too many steps, a device that won't c
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me), last pushed 09 Sep 2026.
+**On the workbench right now:** [PatchPilot](https://github.com/jx-grxf/PatchPilot), last pushed 09 Sep 2026.
 <!-- now:end -->
 
 ---
@@ -112,11 +112,11 @@ Newest first:
 <!-- releases:start -->
 | Project | Version | Released |
 | :--- | :--- | :--- |
+| **[PatchPilot](https://github.com/jx-grxf/PatchPilot/releases/tag/v2.0.1)** | `v2.0.1` | 09 Sep 2026 |
 | **[BriskEdit](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.0)** | `v0.6.0` | 05 Sep 2026 |
 | **[agent-presence](https://github.com/jx-grxf/agent-presence/releases/tag/v0.3.0)** | `v0.3.0` | 05 Sep 2026 |
 | **[NotchTray](https://github.com/jx-grxf/NotchTray/releases/tag/v1.0.0)** | `v1.0.0` | 02 Aug 2026 |
 | **[poise](https://github.com/jx-grxf/poise/releases/tag/v0.1.0)** | `v0.1.0` | 18 Jul 2026 |
-| **[claude-swap-bar](https://github.com/jx-grxf/claude-swap-bar/releases/tag/v1.1.1)** | `v1.1.1` | 18 Jul 2026 |
 <!-- releases:end -->
 
 <sub>Refreshed from the public GitHub API every six hours. Stable releases only, no drafts or prereleases.</sub>
