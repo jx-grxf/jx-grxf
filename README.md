@@ -34,13 +34,15 @@ app that should exist and doesn't.
 
 <a href="https://oeffigo.app"><img src="assets/oeffigo-appicon.png" width="76" align="right" alt="The ÖffiGo app icon: a green Ö forming an arrow."></a>
 
+## The most honest public transit app. And the fastest.
+
 **Public transport for the whole country, native on iPhone and Apple Watch.**
 
 Departures, journey planning and disruptions, with your trip on your wrist and in a Live
-Activity. A SwiftUI app on a TypeScript backend I wrote myself, running on Austria's national
+Activity. A SwiftUI app on a TypeScript/Rust backend, running on Austria's national
 mobility data platform (VAO). Most of my time goes here.
 
-Currently in a **closed TestFlight beta**. Android development is paused.
+Currently in a **closed TestFlight beta**. Android development will start soon.
 
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-0A84FF?style=flat-square&logo=swift&logoColor=white)
 ![WidgetKit](https://img.shields.io/badge/WidgetKit-5E5CE6?style=flat-square&logo=apple&logoColor=white)
