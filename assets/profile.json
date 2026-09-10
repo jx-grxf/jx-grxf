@@ -1,7 +1,7 @@
 {
   "public_repos": 34,
   "releases_shipped": 52,
-  "downloads": 2380,
+  "downloads": 2394,
   "releases": [
     {
       "repo": "BriskEdit",
@@ -35,8 +35,8 @@
     }
   ],
   "now": {
-    "repo": "BriskEdit",
-    "pushed": "2026-09-10T11:28:16Z",
-    "url": "https://github.com/jx-grxf/BriskEdit"
+    "repo": "claude-code-todo-fix",
+    "pushed": "2026-09-10T11:32:41Z",
+    "url": "https://github.com/jx-grxf/claude-code-todo-fix"
   }
 }
