@@ -12,7 +12,7 @@ Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
 <!-- counters:start -->
-**33** public repositories · **52** releases shipped · latest **[BriskEdit v0.6.1](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.1)**
+**33** public repositories · **53** releases shipped · latest **[BriskEdit v0.6.2](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.2)**
 <!-- counters:end -->
 
 </div>
@@ -114,7 +114,7 @@ Newest first:
 <!-- releases:start -->
 | Project | Version | Released |
 | :--- | :--- | :--- |
-| **[BriskEdit](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.1)** | `v0.6.1` | 10 Sep 2026 |
+| **[BriskEdit](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.2)** | `v0.6.2` | 13 Sep 2026 |
 | **[PatchPilot](https://github.com/jx-grxf/PatchPilot/releases/tag/v2.0.1)** | `v2.0.1` | 09 Sep 2026 |
 | **[agent-presence](https://github.com/jx-grxf/agent-presence/releases/tag/v0.3.0)** | `v0.3.0` | 05 Sep 2026 |
 | **[NotchTray](https://github.com/jx-grxf/NotchTray/releases/tag/v1.0.0)** | `v1.0.0` | 02 Aug 2026 |
