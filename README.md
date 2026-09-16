@@ -25,7 +25,7 @@ problem I ran into myself: a workflow with too many steps, a device that won't c
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [docs](https://github.com/jx-grxf/docs), last pushed 16 Sep 2026.
+**On the workbench right now:** [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me), last pushed 16 Sep 2026.
 <!-- now:end -->
 
 ---
