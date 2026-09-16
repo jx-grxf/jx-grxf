@@ -12,7 +12,7 @@ Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
 <!-- counters:start -->
-**33** public repositories · **53** releases shipped · latest **[BriskEdit v0.6.2](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.2)**
+**34** public repositories · **53** releases shipped · latest **[BriskEdit v0.6.2](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.2)**
 <!-- counters:end -->
 
 </div>
@@ -25,7 +25,7 @@ problem I ran into myself: a workflow with too many steps, a device that won't c
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [NotchTray](https://github.com/jx-grxf/NotchTray), last pushed 14 Sep 2026.
+**On the workbench right now:** [docs](https://github.com/jx-grxf/docs), last pushed 16 Sep 2026.
 <!-- now:end -->
 
 ---
