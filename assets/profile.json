@@ -1,7 +1,7 @@
 {
-  "public_repos": 35,
+  "public_repos": 36,
   "releases_shipped": 53,
-  "downloads": 2912,
+  "downloads": 2928,
   "releases": [
     {
       "repo": "BriskEdit",
@@ -35,8 +35,8 @@
     }
   ],
   "now": {
-    "repo": "school-java",
-    "pushed": "2026-09-20T18:43:53Z",
-    "url": "https://github.com/jx-grxf/school-java"
+    "repo": "Caruso-Reborn",
+    "pushed": "2026-09-21T08:09:32Z",
+    "url": "https://github.com/jx-grxf/Caruso-Reborn"
   }
 }
