@@ -25,7 +25,7 @@ problem I ran into myself: a workflow with too many steps, a device that won't c
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [oeffigo-status-public-archive](https://github.com/jx-grxf/oeffigo-status-public-archive), last pushed 24 Sep 2026.
+**On the workbench right now:** [oeffigo-status-public-archive](https://github.com/jx-grxf/oeffigo-status-public-archive), last pushed 25 Sep 2026.
 <!-- now:end -->
 
 ---
