@@ -34,7 +34,7 @@ app that should exist and doesn't.
 
 <a href="https://oeffigo.app"><img src="assets/oeffigo-appicon.png" width="76" align="right" alt="The ÖffiGo app icon: a green Ö forming an arrow."></a>
 
-## The most honest public transit app. And the fastest.
+The most honest public transit app. And the fastest.
 
 **Public transport for the whole country, native on iPhone and Apple Watch.**
 
