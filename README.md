@@ -25,7 +25,7 @@ problem I ran into myself: a workflow with too many steps, a device that won't c
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [kontobuch](https://github.com/jx-grxf/kontobuch), last pushed 30 Sep 2026.
+**On the workbench right now:** [kontobuch-downloads](https://github.com/jx-grxf/kontobuch-downloads), last pushed 01 Oct 2026.
 <!-- now:end -->
 
 ---
