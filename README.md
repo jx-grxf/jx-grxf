@@ -12,7 +12,7 @@ Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
 <!-- counters:start -->
-**39** public repositories · **53** releases shipped · latest **[BriskEdit v0.6.2](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.2)**
+**40** public repositories · **53** releases shipped · latest **[BriskEdit v0.6.2](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.2)**
 <!-- counters:end -->
 
 </div>
@@ -25,7 +25,7 @@ problem I ran into myself: a workflow with too many steps, a device that won't c
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [oeffigo-status-public-archive](https://github.com/jx-grxf/oeffigo-status-public-archive), last pushed 04 Oct 2026.
+**On the workbench right now:** [kontobuch-downloads](https://github.com/jx-grxf/kontobuch-downloads), last pushed 05 Oct 2026.
 <!-- now:end -->
 
 ---
