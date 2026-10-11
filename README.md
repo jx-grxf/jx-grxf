@@ -59,12 +59,12 @@ Currently in a **closed TestFlight beta**. Android development will start soon.
 
 | Project | What it does |
 | :--- | :--- |
+| **[dirhop](https://github.com/jx-grxf/dirhop)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/dirhop/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/dirhop/releases)<br>`Rust` `TUI` | Jump to any folder from the terminal in a few keystrokes. A fuzzy folder picker that searches around 10,000 folders in under 100 ms. |
 | **[BriskEdit](https://github.com/jx-grxf/BriskEdit)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/BriskEdit/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/BriskEdit/releases)<br>`Swift` `AppKit` `TextKit 2` | A native Mac text editor with an integrated terminal, Markdown preview and local language-server support, built against the Electron editor experience. |
+| **[cswap](https://github.com/jx-grxf/cswap)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/cswap/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/cswap/releases)<br>`Swift` `macOS` | Switch Claude Code accounts from the menu bar and see each account's usage before you hit a limit. |
 | **[agent-presence](https://github.com/jx-grxf/agent-presence)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/agent-presence/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/agent-presence/releases)<br>`Rust` `CLI` | Discord Rich Presence for Claude Code and Codex. One static binary for macOS, Windows and Linux, no bot token. |
-| **[BottleLite](https://github.com/jx-grxf/BottleLite)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/BottleLite/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/BottleLite/releases)<br>`Swift` `Wine` | A lightweight macOS runner for Windows apps, without the weight of a full compatibility suite. |
 | **[poise](https://github.com/jx-grxf/poise)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/poise/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/poise/releases)<br>`Swift` `CoreMotion` | Turns the motion sensors in your AirPods into a posture coach. No camera, no cloud, fully on-device. |
 | **[PatchPilot](https://github.com/jx-grxf/PatchPilot)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/PatchPilot/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/PatchPilot/releases)<br>`TypeScript` `Ollama` | A local-first terminal coding agent. Every file write and shell command needs explicit permission. |
-| **[ip-multitool](https://github.com/jx-grxf/ip-multitool)**<br>`Python` `CLI` | IP intelligence, DNS, RDAP, HTTP checks and subnet math for authorized network diagnostics. |
 
 <details>
 <summary><b>More apps, experiments and rabbit holes</b></summary>
@@ -75,7 +75,8 @@ Currently in a **closed TestFlight beta**. Android development will start soon.
 | :--- | :--- |
 | [NotchTray](https://github.com/jx-grxf/NotchTray) | Surface menu bar items hidden behind the MacBook notch. |
 | [CCrab](https://github.com/jx-grxf/CCrab) | A pixel crab on your desktop that reacts to Claude Code sessions, at 0% idle CPU. |
-| [claude-swap-bar](https://github.com/jx-grxf/claude-swap-bar) | Switch Claude Code accounts and watch usage from the menu bar. |
+| [BottleLite](https://github.com/jx-grxf/BottleLite) | A lightweight macOS runner for Windows apps, without the weight of a full compatibility suite. |
+| [ip-multitool](https://github.com/jx-grxf/ip-multitool) | IP intelligence, DNS, RDAP, HTTP checks and subnet math for authorized network diagnostics. |
 | [MacPhone](https://github.com/jx-grxf/MacPhone) | A small device lab: bridge a real Bluetooth LE device into an Android emulator. |
 | [Caruso-Reborn](https://github.com/jx-grxf/Caruso-Reborn) | Bring internet radio and local playback back to first-generation T+A Caruso hi-fi systems. |
 | [Tools](https://tools.johannesgrof.me) | Merge, split and convert PDFs and images in the browser. Files never leave your device. |
@@ -84,8 +85,9 @@ Currently in a **closed TestFlight beta**. Android development will start soon.
 | [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | Batch-convert DOCX to PDF on macOS through Word and AppleScript. |
 | [SlamX](https://github.com/jx-grxf/SlamX) | Want to make your MacBook scream? Fan and thermal control experiment. |
 
-Also on the workbench: **PortPirate**, a Mac menu bar tool for local dev ports, and
-**HealthKit-MCP**, a read-only Apple Health bridge for AI tools. Their source is private.
+Also on the workbench: **PortPirate**, a Mac menu bar app that shows which coding agent
+started each local dev port, and **[Kontobuch](https://kontobuch.johannesgrof.me)**, a digital
+accounting notebook for Austrian schools. Their source is private.
 
 **[Browse all public repositories →](https://github.com/jx-grxf?tab=repositories)**
 
