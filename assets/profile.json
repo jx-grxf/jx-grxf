@@ -1,19 +1,19 @@
 {
   "public_repos": 43,
-  "releases_shipped": 73,
-  "downloads": 4989,
+  "releases_shipped": 75,
+  "downloads": 5004,
   "releases": [
+    {
+      "repo": "beamng-drivetech",
+      "tag": "v1.2.0",
+      "published": "2026-10-18T18:03:10Z",
+      "url": "https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.2.0"
+    },
     {
       "repo": "MacPhone",
       "tag": "v0.3.1",
       "published": "2026-10-18T09:35:08Z",
       "url": "https://github.com/jx-grxf/MacPhone/releases/tag/v0.3.1"
-    },
-    {
-      "repo": "beamng-drivetech",
-      "tag": "v1.0.0",
-      "published": "2026-10-17T18:52:36Z",
-      "url": "https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.0.0"
     },
     {
       "repo": "claude-code-todo-fix",
@@ -35,8 +35,8 @@
     }
   ],
   "now": {
-    "repo": "oeffigo-status-public-archive",
-    "pushed": "2026-10-18T14:54:55Z",
-    "url": "https://github.com/jx-grxf/oeffigo-status-public-archive"
+    "repo": "beamng-drivetech",
+    "pushed": "2026-10-18T18:02:57Z",
+    "url": "https://github.com/jx-grxf/beamng-drivetech"
   }
 }

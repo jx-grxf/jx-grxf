@@ -12,7 +12,7 @@ Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
 <!-- counters:start -->
-**43** public repositories · **73** releases shipped · latest **[MacPhone v0.3.1](https://github.com/jx-grxf/MacPhone/releases/tag/v0.3.1)**
+**43** public repositories · **75** releases shipped · latest **[beamng-drivetech v1.2.0](https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.2.0)**
 <!-- counters:end -->
 
 </div>
@@ -25,7 +25,7 @@ problem I ran into myself: a workflow with too many steps, a device that won't c
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [oeffigo-status-public-archive](https://github.com/jx-grxf/oeffigo-status-public-archive), last pushed 18 Oct 2026.
+**On the workbench right now:** [beamng-drivetech](https://github.com/jx-grxf/beamng-drivetech), last pushed 18 Oct 2026.
 <!-- now:end -->
 
 ---
@@ -141,8 +141,8 @@ Newest first:
 <!-- releases:start -->
 | Project | Version | Released |
 | :--- | :--- | :--- |
+| **[beamng-drivetech](https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.2.0)** | `v1.2.0` | 18 Oct 2026 |
 | **[MacPhone](https://github.com/jx-grxf/MacPhone/releases/tag/v0.3.1)** | `v0.3.1` | 18 Oct 2026 |
-| **[beamng-drivetech](https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.0.0)** | `v1.0.0` | 17 Oct 2026 |
 | **[claude-code-todo-fix](https://github.com/jx-grxf/claude-code-todo-fix/releases/tag/v0.2.1)** | `v0.2.1` | 17 Oct 2026 |
 | **[cswap](https://github.com/jx-grxf/cswap/releases/tag/v2.1.0)** | `v2.1.0` | 16 Oct 2026 |
 | **[dirhop](https://github.com/jx-grxf/dirhop/releases/tag/v0.2.0)** | `v0.2.0` | 15 Oct 2026 |
