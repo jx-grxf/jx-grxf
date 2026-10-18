@@ -1,8 +1,14 @@
 {
   "public_repos": 42,
-  "releases_shipped": 71,
-  "downloads": 4941,
+  "releases_shipped": 73,
+  "downloads": 4965,
   "releases": [
+    {
+      "repo": "MacPhone",
+      "tag": "v0.3.1",
+      "published": "2026-10-18T09:35:08Z",
+      "url": "https://github.com/jx-grxf/MacPhone/releases/tag/v0.3.1"
+    },
     {
       "repo": "beamng-drivetech",
       "tag": "v1.0.0",
@@ -26,17 +32,11 @@
       "tag": "v0.2.0",
       "published": "2026-10-15T06:32:55Z",
       "url": "https://github.com/jx-grxf/dirhop/releases/tag/v0.2.0"
-    },
-    {
-      "repo": "BriskEdit",
-      "tag": "v0.6.2",
-      "published": "2026-09-13T18:12:08Z",
-      "url": "https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.2"
     }
   ],
   "now": {
     "repo": "johannesgrof.me",
-    "pushed": "2026-10-18T09:18:12Z",
+    "pushed": "2026-10-18T09:36:49Z",
     "url": "https://github.com/jx-grxf/johannesgrof.me"
   }
 }

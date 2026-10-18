@@ -12,7 +12,7 @@ Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
 <!-- counters:start -->
-**42** public repositories · **71** releases shipped · latest **[beamng-drivetech v1.0.0](https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.0.0)**
+**42** public repositories · **73** releases shipped · latest **[MacPhone v0.3.1](https://github.com/jx-grxf/MacPhone/releases/tag/v0.3.1)**
 <!-- counters:end -->
 
 </div>
@@ -141,11 +141,11 @@ Newest first:
 <!-- releases:start -->
 | Project | Version | Released |
 | :--- | :--- | :--- |
+| **[MacPhone](https://github.com/jx-grxf/MacPhone/releases/tag/v0.3.1)** | `v0.3.1` | 18 Oct 2026 |
 | **[beamng-drivetech](https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.0.0)** | `v1.0.0` | 17 Oct 2026 |
 | **[claude-code-todo-fix](https://github.com/jx-grxf/claude-code-todo-fix/releases/tag/v0.2.1)** | `v0.2.1` | 17 Oct 2026 |
 | **[cswap](https://github.com/jx-grxf/cswap/releases/tag/v2.1.0)** | `v2.1.0` | 16 Oct 2026 |
 | **[dirhop](https://github.com/jx-grxf/dirhop/releases/tag/v0.2.0)** | `v0.2.0` | 15 Oct 2026 |
-| **[BriskEdit](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.2)** | `v0.6.2` | 13 Sep 2026 |
 <!-- releases:end -->
 
 <sub>Refreshed from the public GitHub API every six hours. Stable releases only, no drafts or prereleases.</sub>
