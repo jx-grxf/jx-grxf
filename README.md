@@ -12,59 +12,90 @@ Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
 <!-- counters:start -->
-**40** public repositories · **53** releases shipped · latest **[BriskEdit v0.6.2](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.2)**
+**42** public repositories · **71** releases shipped · latest **[beamng-drivetech v1.0.0](https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.0.0)**
 <!-- counters:end -->
 
 </div>
 
 ### Servus, I'm Johannes.
 
-I'm a developer from south-east Styria and a student at HTL Kaindorf. I build native Mac and
-iPhone apps, developer tools, and the backends that keep them running. Most of it starts as a
+I'm a developer from south-east Styria and a student at HTL Kaindorf. Most of my time goes
+into ÖffiGo and Kontobuch. Next to them I build Mac apps and developer tools, usually for a
 problem I ran into myself: a workflow with too many steps, a device that won't cooperate, an
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [claude-swap-bar](https://github.com/jx-grxf/claude-swap-bar), last pushed 05 Oct 2026.
+**On the workbench right now:** [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me), last pushed 18 Oct 2026.
 <!-- now:end -->
 
 ---
 
-## ÖffiGo · Moving Austria
+## ÖffiGo · The transit app for all of Austria
 
 <a href="https://oeffigo.app"><img src="assets/oeffigo-appicon.png" width="76" align="right" alt="The ÖffiGo app icon: a green Ö forming an arrow."></a>
 
-The most honest public transit app. And the fastest.
+**Routes, departures and step-by-step guidance for bus, train and tram, native on iPhone and Apple Watch.**
 
-**Public transport for the whole country, native on iPhone and Apple Watch.**
+From village to city, in the app, on the wrist and on the lock screen. Every departure time
+shows whether it comes from the operator or the timetable, and when a connection gets tight,
+ÖffiGo already has a plan B. No ads, no account. A SwiftUI app on a TypeScript/Rust backend,
+running on Verkehrsauskunft Österreich (VAO).
 
-Departures, journey planning and disruptions, with your trip on your wrist and in a Live
-Activity. A SwiftUI app on a TypeScript/Rust backend, running on Austria's national
-mobility data platform (VAO). Most of my time goes here.
-
-Currently in a **closed TestFlight beta**. Android development will start soon.
+Currently a **closed TestFlight beta** for iPhone (iOS 17+) and Apple Watch. Android is
+paused for now.
 
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-0A84FF?style=flat-square&logo=swift&logoColor=white)
 ![WidgetKit](https://img.shields.io/badge/WidgetKit-5E5CE6?style=flat-square&logo=apple&logoColor=white)
 ![ActivityKit](https://img.shields.io/badge/ActivityKit-32ADE6?style=flat-square&logo=apple&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
 
-**[See the app and join the waitlist →](https://oeffigo.app)**
+**[See the app and request a beta place →](https://oeffigo.app)** · [Live punctuality](https://oeffigo.app/en/puenktlichkeit/) · [System status](https://status.oeffigo.app/)
+
+<br>
+
+<a href="https://kontobuch.johannesgrof.me"><img src="assets/kontobuch-appicon.svg" width="44" align="left" alt="The Kontobuch app icon: a journal page with a red margin and a T-account."></a>
+
+**[Kontobuch](https://kontobuch.johannesgrof.me)** is a digital accounting notebook for
+Austrian schools. Write journal entries, calculate discounts and VAT, and get help with the
+next step. Free, no sign-up, on macOS, Windows, Linux and the web.
+
+<br clear="left">
 
 ---
 
 ## Selected work
 
+**For coding agents**
+
 | Project | What it does |
 | :--- | :--- |
-| **[dirhop](https://github.com/jx-grxf/dirhop)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/dirhop/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/dirhop/releases)<br>`Rust` `TUI` | Jump to any folder from the terminal in a few keystrokes. A fuzzy folder picker that searches around 10,000 folders in under 100 ms. |
-| **[BriskEdit](https://github.com/jx-grxf/BriskEdit)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/BriskEdit/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/BriskEdit/releases)<br>`Swift` `AppKit` `TextKit 2` | A native Mac text editor with an integrated terminal, Markdown preview and local language-server support, built against the Electron editor experience. |
-| **[cswap](https://github.com/jx-grxf/cswap)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/cswap/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/cswap/releases)<br>`Swift` `macOS` | Switch Claude Code accounts from the menu bar and see each account's usage before you hit a limit. |
+| **[PortPirate](https://johannesgrof.me/projects/portpirate/)**<br>`Swift` `MCP`<br><sub>coming soon</sub> | Shows every local dev server on your Mac and which Claude Code or Codex session started it. Agents start a server on a free port per worktree with one MCP call, read its logs and only stop what is theirs. |
+| **[CSwap](https://github.com/jx-grxf/cswap)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/cswap/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/cswap/releases)<br>`Swift` `CLI` | Several Claude Code accounts side by side, each with its own login and live usage. When one runs out, `/swap` continues the same conversation on another account in the same terminal tab. |
+| **[dirhop](https://github.com/jx-grxf/dirhop)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/dirhop/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/dirhop/releases)<br>`Rust` `TUI` | Jump to any folder from the terminal in a few keystrokes. Ranks your projects and the places you visit most at the top, on macOS, Linux and Windows. |
 | **[agent-presence](https://github.com/jx-grxf/agent-presence)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/agent-presence/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/agent-presence/releases)<br>`Rust` `CLI` | Discord Rich Presence for Claude Code and Codex. One static binary for macOS, Windows and Linux, no bot token. |
-| **[poise](https://github.com/jx-grxf/poise)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/poise/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/poise/releases)<br>`Swift` `CoreMotion` | Turns the motion sensors in your AirPods into a posture coach. No camera, no cloud, fully on-device. |
-| **[PatchPilot](https://github.com/jx-grxf/PatchPilot)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/PatchPilot/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/PatchPilot/releases)<br>`TypeScript` `Ollama` | A local-first terminal coding agent. Every file write and shell command needs explicit permission. |
+| **[claude-code-todo-fix](https://github.com/jx-grxf/claude-code-todo-fix)**<br>`Shell` `PowerShell` | Brings the task list back to Claude Code on newer models. One flag in `settings.json`, one rule in `CLAUDE.md`, installers for bash and PowerShell that back up every file they touch. |
+| **[PatchPilot](https://github.com/jx-grxf/PatchPilot)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/PatchPilot/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/PatchPilot/releases)<br>`TypeScript` `Ollama` | A terminal coding agent for models you run yourself: Ollama, LM Studio, MLX, llama.cpp or vLLM. Every file edit and shell command shows up first, and the risky ones wait for your approval. |
+
+**Mac apps**
+
+| Project | What it does |
+| :--- | :--- |
+| **[BriskEdit](https://github.com/jx-grxf/BriskEdit)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/BriskEdit/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/BriskEdit/releases)<br>`Swift` `AppKit` | A native Mac editor with an integrated terminal, Markdown preview and a Run button that finds the right toolchain for the file you are editing. |
+| **[NotchTray](https://github.com/jx-grxf/NotchTray)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/NotchTray/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/NotchTray/releases)<br>`Swift` `macOS` | Menu bar icons hidden behind the MacBook notch, back in reach through a dropdown under the notch. |
+| **[poise](https://github.com/jx-grxf/poise)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/poise/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/poise/releases)<br>`Swift` `CoreMotion` | Turns the motion sensors in your AirPods into a posture coach. No camera, no cloud, the motion data never leaves your Mac. |
+| **[BottleLite](https://github.com/jx-grxf/BottleLite)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/BottleLite/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/BottleLite/releases)<br>`Swift` `Wine` | Runs Windows apps on macOS through the Wine install you already have. Persistent bottles, safe `.exe` import, and logs, settings and a stop button for every program. |
+| **[MacPhone](https://github.com/jx-grxf/MacPhone)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/MacPhone/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/MacPhone/releases)<br>`Swift` `Bluetooth LE` | Android emulators and iOS simulators from one Mac, plus a bridge that mirrors a real Bluetooth LE device into an emulator, full GATT tree included. |
+
+**Niche projects**
+
+| Project | What it does |
+| :--- | :--- |
+| **[DriveTech](https://github.com/jx-grxf/beamng-drivetech)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/beamng-drivetech/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/beamng-drivetech/releases)<br>`Lua` `BeamNG.drive` | BMW-style driving electronics for BeamNG.drive: drive profiles from ECO PRO to SPORT+, DSC modes, xDrive, launch control and auto hold. Each feature stays off when the car lacks the hardware for it. |
+| **[Caruso-Reborn](https://github.com/jx-grxf/Caruso-Reborn)**<br>[![Downloads](https://img.shields.io/github/downloads/jx-grxf/Caruso-Reborn/total?style=flat-square&label=&color=30363d&labelColor=30363d&logo=github&logoColor=8b949e)](https://github.com/jx-grxf/Caruso-Reborn/releases)<br>`TypeScript` `UPnP` | Internet radio and your own music back on first-generation T+A Caruso hi-fi systems, served from your computer as a local UPnP/DLNA source. |
+| **[Tools](https://tools.johannesgrof.me)**<br>`TypeScript` `pdf-lib` | Merge, split, rotate and convert PDFs and images in the browser. Files never leave your device. |
 
 <details>
 <summary><b>More apps, experiments and rabbit holes</b></summary>
@@ -73,21 +104,15 @@ Currently in a **closed TestFlight beta**. Android development will start soon.
 
 | Project | The idea |
 | :--- | :--- |
-| [NotchTray](https://github.com/jx-grxf/NotchTray) | Surface menu bar items hidden behind the MacBook notch. |
-| [CCrab](https://github.com/jx-grxf/CCrab) | A pixel crab on your desktop that reacts to Claude Code sessions, at 0% idle CPU. |
-| [BottleLite](https://github.com/jx-grxf/BottleLite) | A lightweight macOS runner for Windows apps, without the weight of a full compatibility suite. |
-| [ip-multitool](https://github.com/jx-grxf/ip-multitool) | IP intelligence, DNS, RDAP, HTTP checks and subnet math for authorized network diagnostics. |
-| [MacPhone](https://github.com/jx-grxf/MacPhone) | A small device lab: bridge a real Bluetooth LE device into an Android emulator. |
-| [Caruso-Reborn](https://github.com/jx-grxf/Caruso-Reborn) | Bring internet radio and local playback back to first-generation T+A Caruso hi-fi systems. |
-| [Tools](https://tools.johannesgrof.me) | Merge, split and convert PDFs and images in the browser. Files never leave your device. |
+| [CCrab](https://github.com/jx-grxf/CCrab) | A pixel crab on your desktop that reacts to Claude Code sessions, with your usage in the menu bar. |
+| [cofload](https://github.com/jx-grxf/cofload) | A Claude Code plugin that routes bulk file reads to a cheaper model you already have. |
+| [kontobuch-saldo](https://github.com/jx-grxf/kontobuch-saldo) | The booking model behind Kontobuch. Books business transactions in the Austrian standard chart of accounts, on the device. |
+| [ip-multitool](https://github.com/jx-grxf/ip-multitool) | IP, DNS, RDAP, HTTP checks and subnet math for authorized network diagnostics. |
 | [scooter-tuning-db](https://github.com/jx-grxf/scooter-tuning-db) | Community-documented BLE registers and tuning maps for e-scooters. |
-| [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me) | My bilingual portfolio, built with Astro and TypeScript. |
-| [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | Batch-convert DOCX to PDF on macOS through Word and AppleScript. |
-| [SlamX](https://github.com/jx-grxf/SlamX) | Want to make your MacBook scream? Fan and thermal control experiment. |
-
-Also on the workbench: **PortPirate**, a Mac menu bar app that shows which coding agent
-started each local dev port, and **[Kontobuch](https://kontobuch.johannesgrof.me)**, a digital
-accounting notebook for Austrian schools. Their source is private.
+| [opsec](https://github.com/jx-grxf/opsec) | Fake hacker mode for your terminal: `sudo opsec`. Pure show, touches nothing. |
+| [SlamX](https://github.com/jx-grxf/SlamX) | Slap your MacBook and it knows. Real accelerometer, no microphone. |
+| [DocxToPDF](https://github.com/jx-grxf/DocxToPDF) | Batch-convert DOCX to PDF on macOS with Word itself as the engine. |
+| [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me) | My bilingual portfolio, built with Astro. It reads its own release data from GitHub. |
 
 **[Browse all public repositories →](https://github.com/jx-grxf?tab=repositories)**
 
@@ -116,11 +141,11 @@ Newest first:
 <!-- releases:start -->
 | Project | Version | Released |
 | :--- | :--- | :--- |
+| **[beamng-drivetech](https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.0.0)** | `v1.0.0` | 17 Oct 2026 |
+| **[claude-code-todo-fix](https://github.com/jx-grxf/claude-code-todo-fix/releases/tag/v0.2.1)** | `v0.2.1` | 17 Oct 2026 |
+| **[cswap](https://github.com/jx-grxf/cswap/releases/tag/v2.1.0)** | `v2.1.0` | 16 Oct 2026 |
+| **[dirhop](https://github.com/jx-grxf/dirhop/releases/tag/v0.2.0)** | `v0.2.0` | 15 Oct 2026 |
 | **[BriskEdit](https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.2)** | `v0.6.2` | 13 Sep 2026 |
-| **[PatchPilot](https://github.com/jx-grxf/PatchPilot/releases/tag/v2.0.1)** | `v2.0.1` | 09 Sep 2026 |
-| **[agent-presence](https://github.com/jx-grxf/agent-presence/releases/tag/v0.3.0)** | `v0.3.0` | 05 Sep 2026 |
-| **[NotchTray](https://github.com/jx-grxf/NotchTray/releases/tag/v1.0.0)** | `v1.0.0` | 02 Aug 2026 |
-| **[poise](https://github.com/jx-grxf/poise/releases/tag/v0.1.0)** | `v0.1.0` | 18 Jul 2026 |
 <!-- releases:end -->
 
 <sub>Refreshed from the public GitHub API every six hours. Stable releases only, no drafts or prereleases.</sub>
@@ -131,11 +156,11 @@ Newest first:
 
 **Languages**
 
-[![Languages](https://skillicons.dev/icons?i=swift,ts,js,rust,py,kotlin,c,java&theme=dark)](https://skillicons.dev)
+[![Languages](https://skillicons.dev/icons?i=swift,ts,js,rust,py,lua&theme=dark)](https://skillicons.dev)
 
 **Platforms and frameworks**
 
-[![Platforms](https://skillicons.dev/icons?i=apple,nodejs,astro,tailwind,electron&theme=dark)](https://skillicons.dev)
+[![Platforms](https://skillicons.dev/icons?i=apple,nodejs,bun,astro,vite&theme=dark)](https://skillicons.dev)
 
 **Infrastructure and services**
 
@@ -143,16 +168,16 @@ Newest first:
 
 **Tooling**
 
-[![Tooling](https://skillicons.dev/icons?i=git,github,bash,vscode&theme=dark)](https://skillicons.dev)
+[![Tooling](https://skillicons.dev/icons?i=git,github,githubactions,bash,vscode&theme=dark)](https://skillicons.dev)
 
 ![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white)
-![Tuist](https://img.shields.io/badge/Tuist-6236FF?style=flat-square)
+![XcodeGen](https://img.shields.io/badge/XcodeGen-1C1C1E?style=flat-square)
+![SwiftLint](https://img.shields.io/badge/SwiftLint-F05138?style=flat-square&logo=swift&logoColor=white)
 ![Sparkle](https://img.shields.io/badge/Sparkle-5E5CE6?style=flat-square)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-111827?style=flat-square)
 
-**Learning right now:** [Rust](https://github.com/jx-grxf/rust_learning) and
-[TypeScript](https://github.com/jx-grxf/typescript_learning), hands-on in public repos.
+The full setup, from terminal to deploy targets, is on **[johannesgrof.me/uses](https://johannesgrof.me/uses/)**.
 
 ---
 

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- Kontobuch app icon: a journal page with the red margin and a T-account, on royal-blue ink -->
+  <defs>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4163EE"/>
+      <stop offset="1" stop-color="#1C37A8"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF1F8"/>
+    </linearGradient>
+    <filter id="lift" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#0B1A5C" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="url(#ink)"/>
+  <g filter="url(#lift)">
+    <rect x="236" y="206" width="552" height="612" rx="54" fill="url(#paper)"/>
+  </g>
+  <!-- correction margin -->
+  <rect x="330" y="206" width="9" height="612" fill="#E4577F"/>
+  <!-- T-account -->
+  <g stroke="#17233F" stroke-width="36" stroke-linecap="round" fill="none">
+    <path d="M400 410H720"/>
+    <path d="M560 410V694"/>
+  </g>
+  <!-- postings: two on debit, one on credit -->
+  <g stroke-width="26" stroke-linecap="round" fill="none">
+    <path d="M404 500H500" stroke="#2443C4"/>
+    <path d="M404 578H500" stroke="#2443C4" opacity="0.55"/>
+    <path d="M620 500H716" stroke="#2443C4"/>
+  </g>
+</svg>
