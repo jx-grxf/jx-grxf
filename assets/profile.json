@@ -1,42 +1,42 @@
 {
-  "public_repos": 40,
-  "releases_shipped": 53,
-  "downloads": 3811,
+  "public_repos": 42,
+  "releases_shipped": 71,
+  "downloads": 4941,
   "releases": [
+    {
+      "repo": "beamng-drivetech",
+      "tag": "v1.0.0",
+      "published": "2026-10-17T18:52:36Z",
+      "url": "https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.0.0"
+    },
+    {
+      "repo": "claude-code-todo-fix",
+      "tag": "v0.2.1",
+      "published": "2026-10-17T18:49:57Z",
+      "url": "https://github.com/jx-grxf/claude-code-todo-fix/releases/tag/v0.2.1"
+    },
+    {
+      "repo": "cswap",
+      "tag": "v2.1.0",
+      "published": "2026-10-16T13:47:46Z",
+      "url": "https://github.com/jx-grxf/cswap/releases/tag/v2.1.0"
+    },
+    {
+      "repo": "dirhop",
+      "tag": "v0.2.0",
+      "published": "2026-10-15T06:32:55Z",
+      "url": "https://github.com/jx-grxf/dirhop/releases/tag/v0.2.0"
+    },
     {
       "repo": "BriskEdit",
       "tag": "v0.6.2",
       "published": "2026-09-13T18:12:08Z",
       "url": "https://github.com/jx-grxf/BriskEdit/releases/tag/v0.6.2"
-    },
-    {
-      "repo": "PatchPilot",
-      "tag": "v2.0.1",
-      "published": "2026-09-09T23:10:30Z",
-      "url": "https://github.com/jx-grxf/PatchPilot/releases/tag/v2.0.1"
-    },
-    {
-      "repo": "agent-presence",
-      "tag": "v0.3.0",
-      "published": "2026-09-05T19:41:45Z",
-      "url": "https://github.com/jx-grxf/agent-presence/releases/tag/v0.3.0"
-    },
-    {
-      "repo": "NotchTray",
-      "tag": "v1.0.0",
-      "published": "2026-08-02T18:53:05Z",
-      "url": "https://github.com/jx-grxf/NotchTray/releases/tag/v1.0.0"
-    },
-    {
-      "repo": "poise",
-      "tag": "v0.1.0",
-      "published": "2026-07-18T18:48:13Z",
-      "url": "https://github.com/jx-grxf/poise/releases/tag/v0.1.0"
     }
   ],
   "now": {
-    "repo": "claude-swap-bar",
-    "pushed": "2026-10-05T17:52:34Z",
-    "url": "https://github.com/jx-grxf/claude-swap-bar"
+    "repo": "johannesgrof.me",
+    "pushed": "2026-10-18T09:16:13Z",
+    "url": "https://github.com/jx-grxf/johannesgrof.me"
   }
 }

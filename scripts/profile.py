@@ -17,8 +17,9 @@ USER = "jx-grxf"
 # reach the profile; private work is filtered out at fetch time.
 REPOS = (
     "BriskEdit", "agent-presence", "NotchTray", "MacPhone", "Caruso-Reborn",
-    "BottleLite", "poise", "PatchPilot", "claude-swap-bar", "ip-multitool",
-    "tools", "scooter-tuning-db",
+    "BottleLite", "poise", "PatchPilot", "cswap", "ip-multitool",
+    "tools", "scooter-tuning-db", "dirhop", "beamng-drivetech",
+    "claude-code-todo-fix", "CCrab", "SlamX", "DocxToPDF",
 )
 
 MARKERS = ("releases", "counters", "now")
