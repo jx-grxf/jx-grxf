@@ -12,7 +12,7 @@ Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
 <!-- counters:start -->
-**42** public repositories · **73** releases shipped · latest **[MacPhone v0.3.1](https://github.com/jx-grxf/MacPhone/releases/tag/v0.3.1)**
+**43** public repositories · **73** releases shipped · latest **[MacPhone v0.3.1](https://github.com/jx-grxf/MacPhone/releases/tag/v0.3.1)**
 <!-- counters:end -->
 
 </div>
@@ -25,7 +25,7 @@ problem I ran into myself: a workflow with too many steps, a device that won't c
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me), last pushed 18 Oct 2026.
+**On the workbench right now:** [oeffigo-status-public-archive](https://github.com/jx-grxf/oeffigo-status-public-archive), last pushed 18 Oct 2026.
 <!-- now:end -->
 
 ---

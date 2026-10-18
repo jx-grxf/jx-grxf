@@ -1,7 +1,7 @@
 {
-  "public_repos": 42,
+  "public_repos": 43,
   "releases_shipped": 73,
-  "downloads": 4965,
+  "downloads": 4989,
   "releases": [
     {
       "repo": "MacPhone",
@@ -35,8 +35,8 @@
     }
   ],
   "now": {
-    "repo": "johannesgrof.me",
-    "pushed": "2026-10-18T09:36:49Z",
-    "url": "https://github.com/jx-grxf/johannesgrof.me"
+    "repo": "oeffigo-status-public-archive",
+    "pushed": "2026-10-18T14:54:55Z",
+    "url": "https://github.com/jx-grxf/oeffigo-status-public-archive"
   }
 }
