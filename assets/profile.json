@@ -1,7 +1,7 @@
 {
-  "public_repos": 43,
+  "public_repos": 45,
   "releases_shipped": 75,
-  "downloads": 5054,
+  "downloads": 5090,
   "releases": [
     {
       "repo": "beamng-drivetech",
@@ -35,8 +35,8 @@
     }
   ],
   "now": {
-    "repo": "johannesgrof.me",
-    "pushed": "2026-10-19T06:31:13Z",
-    "url": "https://github.com/jx-grxf/johannesgrof.me"
+    "repo": "BriskEdit",
+    "pushed": "2026-10-19T20:51:59Z",
+    "url": "https://github.com/jx-grxf/BriskEdit"
   }
 }
