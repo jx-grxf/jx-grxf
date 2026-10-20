@@ -1,7 +1,7 @@
 {
   "public_repos": 45,
   "releases_shipped": 75,
-  "downloads": 5143,
+  "downloads": 5157,
   "releases": [
     {
       "repo": "beamng-drivetech",
@@ -35,8 +35,8 @@
     }
   ],
   "now": {
-    "repo": "BriskEdit",
-    "pushed": "2026-10-19T20:51:59Z",
-    "url": "https://github.com/jx-grxf/BriskEdit"
+    "repo": "oeffigo-status-public-archive",
+    "pushed": "2026-10-20T17:59:22Z",
+    "url": "https://github.com/jx-grxf/oeffigo-status-public-archive"
   }
 }
