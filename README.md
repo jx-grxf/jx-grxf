@@ -12,7 +12,7 @@ Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
 <!-- counters:start -->
-**45** public repositories · **75** releases shipped · latest **[beamng-drivetech v1.2.0](https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.2.0)**
+**45** public repositories · **72** releases shipped · latest **[beamng-drivetech v1.2.0](https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.2.0)**
 <!-- counters:end -->
 
 </div>
