@@ -1,8 +1,14 @@
 {
-  "public_repos": 45,
-  "releases_shipped": 72,
-  "downloads": 5268,
+  "public_repos": 44,
+  "releases_shipped": 76,
+  "downloads": 5349,
   "releases": [
+    {
+      "repo": "cswap",
+      "tag": "v2.1.1",
+      "published": "2026-10-22T18:26:16Z",
+      "url": "https://github.com/jx-grxf/cswap/releases/tag/v2.1.1"
+    },
     {
       "repo": "beamng-drivetech",
       "tag": "v1.2.0",
@@ -22,12 +28,6 @@
       "url": "https://github.com/jx-grxf/claude-code-todo-fix/releases/tag/v0.2.1"
     },
     {
-      "repo": "cswap",
-      "tag": "v2.1.0",
-      "published": "2026-10-16T13:47:46Z",
-      "url": "https://github.com/jx-grxf/cswap/releases/tag/v2.1.0"
-    },
-    {
       "repo": "dirhop",
       "tag": "v0.2.0",
       "published": "2026-10-15T06:32:55Z",
@@ -36,7 +36,7 @@
   ],
   "now": {
     "repo": "oeffigo-status-public-archive",
-    "pushed": "2026-10-21T13:23:49Z",
+    "pushed": "2026-10-22T21:00:19Z",
     "url": "https://github.com/jx-grxf/oeffigo-status-public-archive"
   }
 }
