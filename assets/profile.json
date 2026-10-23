@@ -1,7 +1,7 @@
 {
   "public_repos": 44,
   "releases_shipped": 76,
-  "downloads": 5407,
+  "downloads": 5423,
   "releases": [
     {
       "repo": "cswap",
@@ -35,8 +35,8 @@
     }
   ],
   "now": {
-    "repo": "oeffigo-status-public-archive",
-    "pushed": "2026-10-22T21:00:19Z",
-    "url": "https://github.com/jx-grxf/oeffigo-status-public-archive"
+    "repo": "BeamMac",
+    "pushed": "2026-10-23T19:22:55Z",
+    "url": "https://github.com/jx-grxf/BeamMac"
   }
 }
