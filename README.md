@@ -12,7 +12,7 @@ Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
 <!-- counters:start -->
-**44** public repositories · **76** releases shipped · latest **[cswap v2.1.1](https://github.com/jx-grxf/cswap/releases/tag/v2.1.1)**
+**45** public repositories · **76** releases shipped · latest **[cswap v2.1.1](https://github.com/jx-grxf/cswap/releases/tag/v2.1.1)**
 <!-- counters:end -->
 
 </div>
