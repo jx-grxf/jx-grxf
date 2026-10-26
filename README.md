@@ -12,7 +12,7 @@ Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
 <!-- counters:start -->
-**45** public repositories · **76** releases shipped · latest **[cswap v2.1.1](https://github.com/jx-grxf/cswap/releases/tag/v2.1.1)**
+**46** public repositories · **76** releases shipped · latest **[cswap v2.1.1](https://github.com/jx-grxf/cswap/releases/tag/v2.1.1)**
 <!-- counters:end -->
 
 </div>
@@ -25,7 +25,7 @@ problem I ran into myself: a workflow with too many steps, a device that won't c
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [oeffigo-status-public-archive](https://github.com/jx-grxf/oeffigo-status-public-archive), last pushed 25 Oct 2026.
+**On the workbench right now:** [DysonBar](https://github.com/jx-grxf/DysonBar), last pushed 25 Oct 2026.
 <!-- now:end -->
 
 ---
