@@ -2,7 +2,7 @@
 
 # Johannes Grof
 
-### Software that does one thing, properly.
+*Locked in* - 10k commits in 2026?
 
 Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 
