@@ -83,6 +83,7 @@ next step. Free, no sign-up, on macOS, Windows, Linux and the web.
 
 | Project | What it does |
 | :--- | :--- |
+| **[DysonBar](https://github.com/jx-grxf/DysonBar)** | Air quality and controls for Dyson purifiers in the menu bar. After one MyDyson sign-in it talks to the purifier over your own Wi-Fi, without Dyson's cloud.<br><sub>Swift · MQTT</sub> |
 | **[BriskEdit](https://github.com/jx-grxf/BriskEdit)** | A native Mac editor with an integrated terminal, Markdown preview and a Run button that finds the right toolchain for the file you are editing.<br><sub>Swift · AppKit</sub> |
 | **[NotchTray](https://github.com/jx-grxf/NotchTray)** | Menu bar icons hidden behind the MacBook notch, back in reach through a dropdown under the notch.<br><sub>Swift · macOS</sub> |
 | **[poise](https://github.com/jx-grxf/poise)** | Turns the motion sensors in your AirPods into a posture coach. No camera, no cloud, the motion data never leaves your Mac.<br><sub>Swift · CoreMotion</sub> |
@@ -93,6 +94,7 @@ next step. Free, no sign-up, on macOS, Windows, Linux and the web.
 
 | Project | What it does |
 | :--- | :--- |
+| **[BeamMac](https://github.com/jx-grxf/BeamMac)** | Runs BeamNG.drive on Apple Silicon Macs. Installs Wine, the Metal graphics layers and Steam for Windows on its own, so all that is left is logging in to Steam.<br><sub>Swift · Wine · Metal</sub> |
 | **[DriveTech](https://github.com/jx-grxf/beamng-drivetech)** | BMW-style driving electronics for BeamNG.drive: drive profiles from ECO PRO to SPORT+, DSC modes, xDrive, launch control and auto hold. Each feature stays off when the car lacks the hardware for it.<br><sub>Lua · BeamNG.drive</sub> |
 | **[Caruso‑Reborn](https://github.com/jx-grxf/Caruso-Reborn)** | Internet radio and your own music back on first-generation T+A Caruso hi-fi systems, served from your computer as a local UPnP/DLNA source.<br><sub>TypeScript · UPnP</sub> |
 | **[Tools](https://tools.johannesgrof.me)** | Merge, split, rotate and convert PDFs and images in the browser. Files never leave your device.<br><sub>TypeScript · pdf-lib</sub> |
