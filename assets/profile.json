@@ -1,7 +1,7 @@
 {
   "public_repos": 46,
   "releases_shipped": 76,
-  "downloads": 5829,
+  "downloads": 5863,
   "releases": [
     {
       "repo": "cswap",
@@ -35,8 +35,8 @@
     }
   ],
   "now": {
-    "repo": "oeffigo-status-public-archive",
-    "pushed": "2026-10-28T19:34:18Z",
-    "url": "https://github.com/jx-grxf/oeffigo-status-public-archive"
+    "repo": "johannesgrof.me",
+    "pushed": "2026-10-29T17:04:45Z",
+    "url": "https://github.com/jx-grxf/johannesgrof.me"
   }
 }
