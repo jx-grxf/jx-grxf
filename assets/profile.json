@@ -1,8 +1,14 @@
 {
-  "public_repos": 46,
-  "releases_shipped": 76,
-  "downloads": 6081,
+  "public_repos": 47,
+  "releases_shipped": 77,
+  "downloads": 6139,
   "releases": [
+    {
+      "repo": "PatchPilot",
+      "tag": "v2.1.0",
+      "published": "2026-11-02T17:02:13Z",
+      "url": "https://github.com/jx-grxf/PatchPilot/releases/tag/v2.1.0"
+    },
     {
       "repo": "cswap",
       "tag": "v2.1.1",
@@ -26,17 +32,11 @@
       "tag": "v0.2.1",
       "published": "2026-10-17T18:49:57Z",
       "url": "https://github.com/jx-grxf/claude-code-todo-fix/releases/tag/v0.2.1"
-    },
-    {
-      "repo": "dirhop",
-      "tag": "v0.2.0",
-      "published": "2026-10-15T06:32:55Z",
-      "url": "https://github.com/jx-grxf/dirhop/releases/tag/v0.2.0"
     }
   ],
   "now": {
     "repo": "typesilk",
-    "pushed": "2026-11-01T17:08:13Z",
+    "pushed": "2026-11-02T20:02:04Z",
     "url": "https://github.com/jx-grxf/typesilk"
   }
 }
