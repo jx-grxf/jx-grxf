@@ -2,8 +2,6 @@
 
 # Johannes Grof
 
-*Locked in* - 10k commits in 2026?
-
 Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 
 [![Website](https://img.shields.io/badge/johannesgrof.me-000000?style=for-the-badge&logo=astro&logoColor=white)](https://johannesgrof.me)
@@ -63,8 +61,6 @@ next step. Free, no sign-up, on macOS, Windows, Linux and the web.
 ---
 
 ## Selected work
-
-**For coding agents**
 
 | Project | What it does |
 | :--- | :--- |
