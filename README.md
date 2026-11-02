@@ -38,8 +38,8 @@ app that should exist and doesn't.
 
 From village to city, in the app, on the wrist and on the lock screen. Every departure time
 shows whether it comes from the operator or the timetable, and when a connection gets tight,
-ÖffiGo already has a plan B. No ads, no account. A SwiftUI app on a TypeScript/Rust backend,
-running on Verkehrsauskunft Österreich (VAO).
+ÖffiGo already has a plan B. No ads, no account. A SwiftUI app with data from
+Verkehrsauskunft Österreich (VAO).
 
 Currently a **closed TestFlight beta** for iPhone (iOS 17+) and Apple Watch. Android is
 paused for now.
@@ -47,10 +47,6 @@ paused for now.
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-0A84FF?style=flat-square&logo=swift&logoColor=white)
 ![WidgetKit](https://img.shields.io/badge/WidgetKit-5E5CE6?style=flat-square&logo=apple&logoColor=white)
 ![ActivityKit](https://img.shields.io/badge/ActivityKit-32ADE6?style=flat-square&logo=apple&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
 
 **[See the app and request a beta place →](https://oeffigo.app)** · [Live punctuality](https://oeffigo.app/en/puenktlichkeit/) · [System status](https://status.oeffigo.app/)
 
@@ -90,6 +86,13 @@ next step. Free, no sign-up, on macOS, Windows, Linux and the web.
 | **[BottleLite](https://github.com/jx-grxf/BottleLite)** | Runs Windows apps on macOS through the Wine install you already have. Persistent bottles, safe `.exe` import, and logs, settings and a stop button for every program.<br><sub>Swift · Wine</sub> |
 | **[MacPhone](https://github.com/jx-grxf/MacPhone)** | Android emulators and iOS simulators from one Mac, plus a bridge that mirrors a real Bluetooth LE device into an emulator, full GATT tree included.<br><sub>Swift · Bluetooth LE</sub> |
 
+**On the web**
+
+| Project | What it does |
+| :--- | :--- |
+| **[typesilk](https://typesilk.com)** | A typing test where the words glide under a still caret. The text moves on one continuous spring, so it gets smoother the faster you type. Nine modes, four languages and a coach for your weak keys, no account needed.<br><sub>TypeScript · Vite · beta</sub> |
+| **[Tools](https://tools.johannesgrof.me)** | Merge, split, rotate and convert PDFs and images in the browser. Files never leave your device.<br><sub>TypeScript · pdf-lib</sub> |
+
 **Niche projects**
 
 | Project | What it does |
@@ -97,7 +100,6 @@ next step. Free, no sign-up, on macOS, Windows, Linux and the web.
 | **[BeamMac](https://github.com/jx-grxf/BeamMac)** | Runs BeamNG.drive on Apple Silicon Macs. Installs Wine, the Metal graphics layers and Steam for Windows on its own, so all that is left is logging in to Steam.<br><sub>Swift · Wine · Metal</sub> |
 | **[DriveTech](https://github.com/jx-grxf/beamng-drivetech)** | BMW-style driving electronics for BeamNG.drive: drive profiles from ECO PRO to SPORT+, DSC modes, xDrive, launch control and auto hold. Each feature stays off when the car lacks the hardware for it.<br><sub>Lua · BeamNG.drive</sub> |
 | **[Caruso‑Reborn](https://github.com/jx-grxf/Caruso-Reborn)** | Internet radio and your own music back on first-generation T+A Caruso hi-fi systems, served from your computer as a local UPnP/DLNA source.<br><sub>TypeScript · UPnP</sub> |
-| **[Tools](https://tools.johannesgrof.me)** | Merge, split, rotate and convert PDFs and images in the browser. Files never leave your device.<br><sub>TypeScript · pdf-lib</sub> |
 
 <details>
 <summary><b>More apps, experiments and rabbit holes</b></summary>
