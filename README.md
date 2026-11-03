@@ -10,7 +10,7 @@ Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
 <!-- counters:start -->
-**47** public repositories · **77** releases shipped · latest **[PatchPilot v2.1.0](https://github.com/jx-grxf/PatchPilot/releases/tag/v2.1.0)**
+**48** public repositories · **77** releases shipped · latest **[PatchPilot v2.1.0](https://github.com/jx-grxf/PatchPilot/releases/tag/v2.1.0)**
 <!-- counters:end -->
 
 </div>
@@ -23,7 +23,7 @@ problem I ran into myself: a workflow with too many steps, a device that won't c
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [typesilk](https://github.com/jx-grxf/typesilk), last pushed 02 Nov 2026.
+**On the workbench right now:** [mailidx](https://github.com/jx-grxf/mailidx), last pushed 03 Nov 2026.
 <!-- now:end -->
 
 ---

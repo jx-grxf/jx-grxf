@@ -1,7 +1,7 @@
 {
-  "public_repos": 47,
+  "public_repos": 48,
   "releases_shipped": 77,
-  "downloads": 6180,
+  "downloads": 6234,
   "releases": [
     {
       "repo": "PatchPilot",
@@ -35,8 +35,8 @@
     }
   ],
   "now": {
-    "repo": "typesilk",
-    "pushed": "2026-11-02T20:02:04Z",
-    "url": "https://github.com/jx-grxf/typesilk"
+    "repo": "mailidx",
+    "pushed": "2026-11-03T17:23:44Z",
+    "url": "https://github.com/jx-grxf/mailidx"
   }
 }
