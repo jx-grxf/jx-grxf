@@ -1,7 +1,7 @@
 {
   "public_repos": 48,
   "releases_shipped": 77,
-  "downloads": 6234,
+  "downloads": 6275,
   "releases": [
     {
       "repo": "PatchPilot",
@@ -35,8 +35,8 @@
     }
   ],
   "now": {
-    "repo": "mailidx",
-    "pushed": "2026-11-03T17:23:44Z",
-    "url": "https://github.com/jx-grxf/mailidx"
+    "repo": "BriskEdit",
+    "pushed": "2026-11-04T06:05:06Z",
+    "url": "https://github.com/jx-grxf/BriskEdit"
   }
 }
