@@ -1,7 +1,7 @@
 {
   "public_repos": 48,
   "releases_shipped": 77,
-  "downloads": 6375,
+  "downloads": 6438,
   "releases": [
     {
       "repo": "PatchPilot",
@@ -35,8 +35,8 @@
     }
   ],
   "now": {
-    "repo": "BriskEdit",
-    "pushed": "2026-11-04T06:05:06Z",
-    "url": "https://github.com/jx-grxf/BriskEdit"
+    "repo": "kontobuch-downloads",
+    "pushed": "2026-11-05T13:13:05Z",
+    "url": "https://github.com/jx-grxf/kontobuch-downloads"
   }
 }
