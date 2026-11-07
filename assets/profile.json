@@ -1,7 +1,7 @@
 {
   "public_repos": 48,
   "releases_shipped": 77,
-  "downloads": 6687,
+  "downloads": 6742,
   "releases": [
     {
       "repo": "PatchPilot",
@@ -35,8 +35,8 @@
     }
   ],
   "now": {
-    "repo": "johannesgrof.me",
-    "pushed": "2026-11-07T13:14:32Z",
-    "url": "https://github.com/jx-grxf/johannesgrof.me"
+    "repo": "mailidx",
+    "pushed": "2026-11-07T19:40:28Z",
+    "url": "https://github.com/jx-grxf/mailidx"
   }
 }
