@@ -1,7 +1,7 @@
 {
   "public_repos": 48,
   "releases_shipped": 77,
-  "downloads": 6644,
+  "downloads": 6687,
   "releases": [
     {
       "repo": "PatchPilot",
@@ -35,8 +35,8 @@
     }
   ],
   "now": {
-    "repo": "kontobuch-downloads",
-    "pushed": "2026-11-05T13:13:05Z",
-    "url": "https://github.com/jx-grxf/kontobuch-downloads"
+    "repo": "johannesgrof.me",
+    "pushed": "2026-11-07T13:14:32Z",
+    "url": "https://github.com/jx-grxf/johannesgrof.me"
   }
 }
