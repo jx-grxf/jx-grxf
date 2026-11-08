@@ -1,8 +1,14 @@
 {
   "public_repos": 48,
-  "releases_shipped": 77,
-  "downloads": 6809,
+  "releases_shipped": 79,
+  "downloads": 6914,
   "releases": [
+    {
+      "repo": "dirhop",
+      "tag": "v0.3.1",
+      "published": "2026-11-08T15:16:35Z",
+      "url": "https://github.com/jx-grxf/dirhop/releases/tag/v0.3.1"
+    },
     {
       "repo": "PatchPilot",
       "tag": "v2.1.0",
@@ -26,17 +32,11 @@
       "tag": "v0.3.1",
       "published": "2026-10-18T09:35:08Z",
       "url": "https://github.com/jx-grxf/MacPhone/releases/tag/v0.3.1"
-    },
-    {
-      "repo": "claude-code-todo-fix",
-      "tag": "v0.2.1",
-      "published": "2026-10-17T18:49:57Z",
-      "url": "https://github.com/jx-grxf/claude-code-todo-fix/releases/tag/v0.2.1"
     }
   ],
   "now": {
-    "repo": "mailidx",
-    "pushed": "2026-11-08T10:46:19Z",
-    "url": "https://github.com/jx-grxf/mailidx"
+    "repo": "homebrew-tap",
+    "pushed": "2026-11-08T15:16:38Z",
+    "url": "https://github.com/jx-grxf/homebrew-tap"
   }
 }
