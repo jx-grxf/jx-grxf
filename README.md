@@ -23,7 +23,7 @@ problem I ran into myself: a workflow with too many steps, a device that won't c
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [mailidx](https://github.com/jx-grxf/mailidx), last pushed 07 Nov 2026.
+**On the workbench right now:** [mailidx](https://github.com/jx-grxf/mailidx), last pushed 08 Nov 2026.
 <!-- now:end -->
 
 ---
