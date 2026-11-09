@@ -1,7 +1,7 @@
 {
   "public_repos": 48,
   "releases_shipped": 79,
-  "downloads": 6914,
+  "downloads": 6952,
   "releases": [
     {
       "repo": "dirhop",
@@ -35,8 +35,8 @@
     }
   ],
   "now": {
-    "repo": "homebrew-tap",
-    "pushed": "2026-11-08T15:16:38Z",
-    "url": "https://github.com/jx-grxf/homebrew-tap"
+    "repo": "PatchPilot",
+    "pushed": "2026-11-09T05:15:16Z",
+    "url": "https://github.com/jx-grxf/PatchPilot"
   }
 }

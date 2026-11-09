@@ -23,7 +23,7 @@ problem I ran into myself: a workflow with too many steps, a device that won't c
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [homebrew-tap](https://github.com/jx-grxf/homebrew-tap), last pushed 08 Nov 2026.
+**On the workbench right now:** [PatchPilot](https://github.com/jx-grxf/PatchPilot), last pushed 09 Nov 2026.
 <!-- now:end -->
 
 ---
