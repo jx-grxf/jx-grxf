@@ -1,8 +1,14 @@
 {
   "public_repos": 48,
-  "releases_shipped": 79,
-  "downloads": 7292,
+  "releases_shipped": 80,
+  "downloads": 7413,
   "releases": [
+    {
+      "repo": "agent-presence",
+      "tag": "v0.3.1",
+      "published": "2026-11-12T13:44:04Z",
+      "url": "https://github.com/jx-grxf/agent-presence/releases/tag/v0.3.1"
+    },
     {
       "repo": "dirhop",
       "tag": "v0.3.1",
@@ -26,17 +32,11 @@
       "tag": "v1.2.0",
       "published": "2026-10-18T18:03:10Z",
       "url": "https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.2.0"
-    },
-    {
-      "repo": "MacPhone",
-      "tag": "v0.3.1",
-      "published": "2026-10-18T09:35:08Z",
-      "url": "https://github.com/jx-grxf/MacPhone/releases/tag/v0.3.1"
     }
   ],
   "now": {
-    "repo": "PatchPilot",
-    "pushed": "2026-11-09T05:15:16Z",
-    "url": "https://github.com/jx-grxf/PatchPilot"
+    "repo": "scoop-bucket",
+    "pushed": "2026-11-12T13:44:10Z",
+    "url": "https://github.com/jx-grxf/scoop-bucket"
   }
 }
