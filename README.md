@@ -10,7 +10,7 @@ Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
 <!-- counters:start -->
-**48** public repositories · **80** releases shipped · latest **[agent-presence v0.3.1](https://github.com/jx-grxf/agent-presence/releases/tag/v0.3.1)**
+**49** public repositories · **80** releases shipped · latest **[agent-presence v0.3.1](https://github.com/jx-grxf/agent-presence/releases/tag/v0.3.1)**
 <!-- counters:end -->
 
 </div>
@@ -23,7 +23,7 @@ problem I ran into myself: a workflow with too many steps, a device that won't c
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [scoop-bucket](https://github.com/jx-grxf/scoop-bucket), last pushed 12 Nov 2026.
+**On the workbench right now:** [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me), last pushed 15 Nov 2026.
 <!-- now:end -->
 
 ---
