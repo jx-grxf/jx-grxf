@@ -66,9 +66,10 @@ next step. Free, no sign-up, on macOS, Windows, Linux and the web.
 | :--- | :--- |
 | **[PortPirate](https://johannesgrof.me/projects/portpirate/)** | Shows every local dev server on your Mac and which Claude Code or Codex session started it. Agents start a server on a free port per worktree with one MCP call, read its logs and only stop what is theirs.<br><sub>Swift · MCP · coming soon</sub> |
 | **[CSwap](https://github.com/jx-grxf/cswap)** | Several Claude Code accounts side by side, each with its own login and live usage. When one runs out, `/swap` continues the same conversation on another account in the same terminal tab.<br><sub>Swift · CLI</sub> |
+| **[axbridge](https://github.com/jx-grxf/axbridge)** | Lets coding agents use your iOS app in the Simulator as text. They read the screen from the accessibility tree, tap elements by name and type, and take a screenshot only when the look matters.<br><sub>Swift · TypeScript · MCP</sub> |
+| **[mailidx](https://github.com/jx-grxf/mailidx)** | Apple Mail for Claude, Codex and other MCP clients. It reads Mail's own index on disk, so a search answers in milliseconds and still works while Mail is closed or syncing.<br><sub>Rust · MCP</sub> |
 | **[dirhop](https://github.com/jx-grxf/dirhop)** | Jump to any folder from the terminal in a few keystrokes. Ranks your projects and the places you visit most at the top, on macOS, Linux and Windows.<br><sub>Rust · TUI</sub> |
 | **[agent‑presence](https://github.com/jx-grxf/agent-presence)** | Discord Rich Presence for Claude Code and Codex. One static binary for macOS, Windows and Linux, no bot token.<br><sub>Rust · CLI</sub> |
-| **[claude‑code‑todo‑fix](https://github.com/jx-grxf/claude-code-todo-fix)** | Brings the task list back to Claude Code on newer models. One flag in `settings.json`, one rule in `CLAUDE.md`, installers for bash and PowerShell that back up every file they touch.<br><sub>Shell · PowerShell</sub> |
 | **[PatchPilot](https://github.com/jx-grxf/PatchPilot)** | A terminal coding agent for models you run yourself: Ollama, LM Studio, MLX, llama.cpp or vLLM. Every file edit and shell command shows up first, and the risky ones wait for your approval.<br><sub>TypeScript · Ollama</sub> |
 
 **Mac apps**
@@ -95,7 +96,6 @@ next step. Free, no sign-up, on macOS, Windows, Linux and the web.
 | :--- | :--- |
 | **[BeamMac](https://github.com/jx-grxf/BeamMac)** | Runs BeamNG.drive on Apple Silicon Macs. Installs Wine, the Metal graphics layers and Steam for Windows on its own, so all that is left is logging in to Steam.<br><sub>Swift · Wine · Metal</sub> |
 | **[DriveTech](https://github.com/jx-grxf/beamng-drivetech)** | BMW-style driving electronics for BeamNG.drive: drive profiles from ECO PRO to SPORT+, DSC modes, xDrive, launch control and auto hold. Each feature stays off when the car lacks the hardware for it.<br><sub>Lua · BeamNG.drive</sub> |
-| **[Caruso‑Reborn](https://github.com/jx-grxf/Caruso-Reborn)** | Internet radio and your own music back on first-generation T+A Caruso hi-fi systems, served from your computer as a local UPnP/DLNA source.<br><sub>TypeScript · UPnP</sub> |
 
 <details>
 <summary><b>More apps, experiments and rabbit holes</b></summary>
@@ -106,6 +106,8 @@ next step. Free, no sign-up, on macOS, Windows, Linux and the web.
 | :--- | :--- |
 | [CCrab](https://github.com/jx-grxf/CCrab) | A pixel crab on your desktop that reacts to Claude Code sessions, with your usage in the menu bar. |
 | [cofload](https://github.com/jx-grxf/cofload) | A Claude Code plugin that routes bulk file reads to a cheaper model you already have. |
+| [claude-code-todo-fix](https://github.com/jx-grxf/claude-code-todo-fix) | Brings the task list back to Claude Code on newer models, with one flag and one rule. |
+| [Caruso-Reborn](https://github.com/jx-grxf/Caruso-Reborn) | Internet radio and your own music back on first-generation T+A Caruso hi-fi systems. |
 | [kontobuch-saldo](https://github.com/jx-grxf/kontobuch-saldo) | The booking model behind Kontobuch. Books business transactions in the Austrian standard chart of accounts, on the device. |
 | [ip-multitool](https://github.com/jx-grxf/ip-multitool) | IP, DNS, RDAP, HTTP checks and subnet math for authorized network diagnostics. |
 | [scooter-tuning-db](https://github.com/jx-grxf/scooter-tuning-db) | Community-documented BLE registers and tuning maps for e-scooters. |
