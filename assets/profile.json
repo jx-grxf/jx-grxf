@@ -1,7 +1,7 @@
 {
   "public_repos": 48,
   "releases_shipped": 80,
-  "downloads": 7917,
+  "downloads": 7954,
   "releases": [
     {
       "repo": "agent-presence",
