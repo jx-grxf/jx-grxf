@@ -10,7 +10,7 @@ Austria · HTL Kaindorf an der Sulm · Swift · TypeScript · Rust
 [![Email](https://img.shields.io/badge/contact@johannesgrof.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@johannesgrof.me)
 
 <!-- counters:start -->
-**48** public repositories · **80** releases shipped · latest **[agent-presence v0.3.1](https://github.com/jx-grxf/agent-presence/releases/tag/v0.3.1)**
+**48** public repositories · **81** releases shipped · latest **[beamng-drivetech v1.3.0](https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.3.0)**
 <!-- counters:end -->
 
 </div>
@@ -23,7 +23,7 @@ problem I ran into myself: a workflow with too many steps, a device that won't c
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [johannesgrof.me](https://github.com/jx-grxf/johannesgrof.me), last pushed 18 Nov 2026.
+**On the workbench right now:** [beamng-drivetech](https://github.com/jx-grxf/beamng-drivetech), last pushed 19 Nov 2026.
 <!-- now:end -->
 
 ---
@@ -143,11 +143,11 @@ Newest first:
 <!-- releases:start -->
 | Project | Version | Released |
 | :--- | :--- | :--- |
+| **[beamng-drivetech](https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.3.0)** | `v1.3.0` | 19 Nov 2026 |
 | **[agent-presence](https://github.com/jx-grxf/agent-presence/releases/tag/v0.3.1)** | `v0.3.1` | 12 Nov 2026 |
 | **[dirhop](https://github.com/jx-grxf/dirhop/releases/tag/v0.3.1)** | `v0.3.1` | 08 Nov 2026 |
 | **[PatchPilot](https://github.com/jx-grxf/PatchPilot/releases/tag/v2.1.0)** | `v2.1.0` | 02 Nov 2026 |
 | **[cswap](https://github.com/jx-grxf/cswap/releases/tag/v2.1.1)** | `v2.1.1` | 22 Oct 2026 |
-| **[beamng-drivetech](https://github.com/jx-grxf/beamng-drivetech/releases/tag/v1.2.0)** | `v1.2.0` | 18 Oct 2026 |
 <!-- releases:end -->
 
 <sub>Refreshed from the public GitHub API every six hours. Stable releases only, no drafts or prereleases.</sub>
