@@ -23,7 +23,7 @@ problem I ran into myself: a workflow with too many steps, a device that won't c
 app that should exist and doesn't.
 
 <!-- now:start -->
-**On the workbench right now:** [beamng-drivetech](https://github.com/jx-grxf/beamng-drivetech), last pushed 19 Nov 2026.
+**On the workbench right now:** [BottleLite](https://github.com/jx-grxf/BottleLite), last pushed 20 Nov 2026.
 <!-- now:end -->
 
 ---
